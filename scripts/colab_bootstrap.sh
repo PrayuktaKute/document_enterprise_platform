@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
-# Colab bootstrap: deps + Ollama (GPU) + Qdrant server. Run from the repo root.
+# Colab bootstrap: python deps + Ollama binary + .env (embedded Qdrant).
+# NOTE: Ollama is *started* from a Python cell in the notebook (Popen) so it
+# survives for the kernel session -- a backgrounded process here would be reaped
+# when this cell's shell exits.
 set -euo pipefail
 
 echo "== python deps =="
 pip -q install -r requirements-ml.txt
 pip -q install -e . --no-deps
 
-echo "== ollama =="
-curl -fsSL https://ollama.com/install.sh | sh
-export OLLAMA_NUM_PARALLEL=4          # serve concurrent requests (GPU has headroom)
-export OLLAMA_KEEP_ALIVE=30m
-nohup env OLLAMA_NUM_PARALLEL=4 OLLAMA_KEEP_ALIVE=30m ollama serve > /content/ollama.log 2>&1 &
-sleep 5
-ollama pull qwen2.5:3b-instruct-q4_K_M
+echo "== ollama binary =="
+which ollama >/dev/null 2>&1 || curl -fsSL https://ollama.com/install.sh | sh
+ollama --version || true
 
 echo "== .env  (embedded Qdrant -- no server needed on Colab) =="
 cat > .env <<'EOF'
@@ -30,9 +29,8 @@ ARTIFACTS_DIR=./artifacts
 CACHE_DIR=./data/cache
 EOF
 
-curl -s http://localhost:11434/api/version && echo " ollama ok"
 python - <<'PY'
 from qdrant_client import QdrantClient
 QdrantClient(path="/content/qdrant_local"); print("embedded qdrant ok")
 PY
-echo "bootstrap done"
+echo "bootstrap done (start Ollama in the next cell)"

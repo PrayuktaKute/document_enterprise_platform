@@ -5,6 +5,13 @@ set -euo pipefail
 
 WORKERS="${WORKERS:-4}"
 
+echo "== 0/5 preflight =="
+curl -sf http://localhost:11434/api/version >/dev/null || {
+  echo "ERROR: Ollama is not reachable on :11434. Run the 'Start Ollama' notebook cell first."; exit 1; }
+ollama list | grep -q "qwen2.5:3b" || {
+  echo "ERROR: model qwen2.5:3b-instruct-q4_K_M not pulled."; exit 1; }
+echo "ollama + model ok"
+
 echo "== 1/5 pipeline batch (120 docs, workers=$WORKERS) =="
 python scripts/run_pipeline_batch.py --workers "$WORKERS" --out artifacts/pipeline_results.jsonl
 

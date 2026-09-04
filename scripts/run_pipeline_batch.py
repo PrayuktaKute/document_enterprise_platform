@@ -56,6 +56,22 @@ def main() -> None:
     ap.add_argument("--out", type=str, default=str(OUT))
     args = ap.parse_args()
 
+    # Preflight: fail fast + loud if the LLM endpoint is unreachable, instead of
+    # 120 documents each burning through the client retry budget.
+    try:
+        from dip.llm import LLMClient
+
+        r = LLMClient.from_config().chat(
+            [{"role": "user", "content": "ping"}], max_tokens=1
+        )
+        print(f"LLM preflight ok (model responded, finish={r.finish_reason})")
+    except Exception as exc:  # noqa: BLE001
+        raise SystemExit(
+            f"\nLLM preflight FAILED: {exc}\n"
+            f"Is Ollama running and the model pulled? "
+            f"Check: curl http://localhost:11434/api/version ; ollama list\n"
+        )
+
     rows = [json.loads(x) for x in MANIFEST.read_text(encoding="utf-8").splitlines() if x.strip()]
     if args.types:
         keep = set(args.types.split(","))

@@ -1,4 +1,4 @@
-"""LangGraph assembly and a convenience runner.
+r"""LangGraph assembly and a convenience runner.
 
     ingest -> parse -> classify -> extract -> validate --(auto_accept)--> index -> END
                                                        \--(else)--------> review -> END
