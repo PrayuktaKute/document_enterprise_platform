@@ -1,0 +1,30 @@
+doc_type: invoice
+schema: dip.schemas.invoice.Invoice
+classifier_hint: >
+  Vendor invoice or bill requesting payment. Has an invoice number, an issue date,
+  a vendor/company name and address, line items, and a grand total amount due.
+
+extraction:
+  strategy: single_pass
+  max_output_tokens: 700
+  few_shot: config/examples/invoice.json
+
+validation:
+  critical_rules:
+    - required_fields
+    - total_is_positive
+  rules:
+    - required_fields: [company, date, total]
+    - total_is_positive
+    - date_is_valid
+    - line_items_sum_matches_subtotal
+    - subtotal_plus_tax_matches_total
+  confidence:
+    method: logprob_min
+    field_threshold: 0.55
+    doc_threshold: 0.70
+
+chunking:
+  strategy: layout_section
+  max_tokens: 512
+  overlap: 64

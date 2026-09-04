@@ -1,0 +1,28 @@
+doc_type: medical_report
+schema: dip.schemas.medical_report.MedicalReport
+classifier_hint: >
+  Clinical document such as a radiology report or laboratory report. Has a patient
+  identifier, a report date, an ordering physician, an imaging modality or panel,
+  a findings section and an impression / conclusion.
+
+extraction:
+  strategy: single_pass
+  max_output_tokens: 800
+  few_shot: config/examples/medical_report.json
+
+validation:
+  critical_rules:
+    - required_fields
+  rules:
+    - required_fields: [report_date, modality]
+    - date_is_valid
+    - impression_present
+  confidence:
+    method: logprob_min
+    field_threshold: 0.50
+    doc_threshold: 0.65
+
+chunking:
+  strategy: layout_section
+  max_tokens: 512
+  overlap: 64

@@ -1,0 +1,41 @@
+# Global pipeline configuration.
+# Endpoints / model names come from the environment (.env); this file holds
+# call parameters and behavioural defaults shared across document types.
+
+llm:
+  temperature: 0.0
+  max_output_tokens: 800
+  logprobs: true
+  top_logprobs: 5
+  request_timeout_s: 180
+  max_retries: 2
+
+embedding:
+  model: BAAI/bge-m3
+  batch_size: 12
+  dense_dim: 1024
+  normalize: true
+
+qdrant:
+  collection: documents
+  distance: Cosine
+
+chunking:
+  strategy: layout_section       # layout_section | fixed_window
+  max_tokens: 512
+  overlap: 64
+
+classification:
+  first_n_chars: 1500
+  low_confidence_fallback: 0.45  # below this -> keyword-rule fallback
+
+confidence:
+  method: logprob_min            # logprob_min | logprob_mean | self_consistency
+  default_field_threshold: 0.55
+  default_doc_threshold: 0.70
+  max_low_conf_fields: 1         # auto-accept tolerates this many fields below field_threshold
+  self_consistency_samples: 2
+  self_consistency_temperature: 0.3
+
+review:
+  route_low_confidence: true

@@ -1,0 +1,12 @@
+# ML / build tier: layout-aware parsing, embeddings, dataset prep.
+# Needs Python 3.11 or 3.12 (torch / docling have no 3.14 wheels).
+# This is what Colab installs; install locally only in a 3.11 venv.
+
+-r requirements-app.txt
+
+docling>=2.15
+FlagEmbedding>=1.3
+
+datasets>=3.2
+faker>=33.0
+reportlab>=4.2

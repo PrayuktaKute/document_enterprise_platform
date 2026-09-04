@@ -1,0 +1,30 @@
+doc_type: purchase_order
+schema: dip.schemas.purchase_order.PurchaseOrder
+classifier_hint: >
+  Purchase order issued by a buyer to a vendor authorising a purchase. Has a PO
+  number, order date, buyer and vendor, line items with quantities, and a total.
+  Requests goods/services rather than payment.
+
+extraction:
+  strategy: single_pass
+  max_output_tokens: 700
+  few_shot: config/examples/purchase_order.json
+
+validation:
+  critical_rules:
+    - required_fields
+  rules:
+    - required_fields: [po_number, vendor]
+    - date_is_valid
+    - line_items_sum_matches_subtotal
+    - subtotal_plus_tax_matches_total
+    - delivery_after_order_date
+  confidence:
+    method: logprob_min
+    field_threshold: 0.55
+    doc_threshold: 0.70
+
+chunking:
+  strategy: layout_section
+  max_tokens: 512
+  overlap: 64

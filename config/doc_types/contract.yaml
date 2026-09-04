@@ -1,0 +1,27 @@
+doc_type: contract
+schema: dip.schemas.contract.Contract
+classifier_hint: >
+  Legal agreement between two or more parties. Long prose document with numbered
+  clauses covering obligations, term, termination, governing law and signatures.
+
+extraction:
+  strategy: field_by_field        # long doc: extract fields in small groups with retrieval-guided context
+  max_output_tokens: 500
+  few_shot: config/examples/contract.json
+
+validation:
+  critical_rules:
+    - required_fields
+  rules:
+    - required_fields: [parties, governing_law]
+    - at_least_two_parties
+    - date_is_valid
+  confidence:
+    method: logprob_min
+    field_threshold: 0.45
+    doc_threshold: 0.60
+
+chunking:
+  strategy: layout_section
+  max_tokens: 640
+  overlap: 96
