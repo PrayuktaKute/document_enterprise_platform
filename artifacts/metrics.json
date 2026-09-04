@@ -1,0 +1,109 @@
+{
+  "n_documents": 120,
+  "field_accuracy_overall": 0.8267,
+  "field_accuracy_by_type": {
+    "invoice": 0.6417,
+    "purchase_order": 0.9909,
+    "medical_report": 0.8962,
+    "contract": 0.5376
+  },
+  "field_counts_overall": {
+    "correct": 730,
+    "incorrect": 39,
+    "missing": 105,
+    "spurious": 9
+  },
+  "classification_accuracy": 0.9417,
+  "auto_accept_rate": 0.65,
+  "manual_verification_reduction_pct": 65.0,
+  "field_accuracy_auto_accepted": 0.908,
+  "field_accuracy_needs_review": 0.5646,
+  "auto_accepted_docs": 78,
+  "auto_accepted_docs_error_free": 37,
+  "auto_accepted_doc_precision": 0.4744,
+  "calibration_ece": 0.0782,
+  "calibration_buckets": [
+    {
+      "bucket": "0.2-0.3",
+      "n": 1,
+      "mean_conf": 0.225,
+      "accuracy": 0.0
+    },
+    {
+      "bucket": "0.3-0.4",
+      "n": 8,
+      "mean_conf": 0.364,
+      "accuracy": 0.375
+    },
+    {
+      "bucket": "0.4-0.5",
+      "n": 10,
+      "mean_conf": 0.46,
+      "accuracy": 0.7
+    },
+    {
+      "bucket": "0.5-0.6",
+      "n": 36,
+      "mean_conf": 0.548,
+      "accuracy": 0.806
+    },
+    {
+      "bucket": "0.6-0.7",
+      "n": 122,
+      "mean_conf": 0.613,
+      "accuracy": 0.254
+    },
+    {
+      "bucket": "0.7-0.8",
+      "n": 22,
+      "mean_conf": 0.751,
+      "accuracy": 0.682
+    },
+    {
+      "bucket": "0.8-0.9",
+      "n": 26,
+      "mean_conf": 0.853,
+      "accuracy": 0.769
+    },
+    {
+      "bucket": "0.9-1.0",
+      "n": 637,
+      "mean_conf": 0.994,
+      "accuracy": 0.981
+    }
+  ],
+  "field_accuracy_by_field": {
+    "contract.agreement_date": 0.5517,
+    "contract.document_name": 0.8,
+    "contract.effective_date": 0.7083,
+    "contract.expiration_or_term": 0.2,
+    "contract.governing_law": 0.1481,
+    "contract.parties": 0.9,
+    "contract.renewal_term": 0.0,
+    "invoice.address": 0.5667,
+    "invoice.company": 0.6333,
+    "invoice.date": 0.7,
+    "invoice.total": 0.6667,
+    "medical_report.body_site": 0.9333,
+    "medical_report.diagnoses": 0.55,
+    "medical_report.findings": 0.6333,
+    "medical_report.impression": 1.0,
+    "medical_report.modality": 1.0,
+    "medical_report.ordering_physician": 1.0,
+    "medical_report.patient_id": 1.0,
+    "medical_report.patient_name": 0.8333,
+    "medical_report.report_date": 1.0,
+    "purchase_order.buyer": 0.9667,
+    "purchase_order.currency": 1.0,
+    "purchase_order.delivery_date": 1.0,
+    "purchase_order.line_items": 1.0,
+    "purchase_order.order_date": 1.0,
+    "purchase_order.po_number": 1.0,
+    "purchase_order.ship_to": 0.9667,
+    "purchase_order.subtotal": 0.9667,
+    "purchase_order.tax": 1.0,
+    "purchase_order.total": 1.0,
+    "purchase_order.vendor": 1.0
+  },
+  "mean_latency_s": 10.1
+}

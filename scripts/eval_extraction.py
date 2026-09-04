@@ -59,7 +59,6 @@ def _date(v):
             return datetime.strptime(s, f).date().isoformat()
         except ValueError:
             continue
-    # loose: pull a d/m/y or y-m-d substring out of a longer phrase
     m = re.search(r"\b(\d{1,4}[/-]\d{1,2}[/-]\d{1,4})\b", s)
     if m:
         for f in _DATE_FMTS:
@@ -68,6 +67,45 @@ def _date(v):
             except ValueError:
                 continue
     return None
+
+
+def _date_components(v):
+    """(year, {n1, n2}) with day/month order left ambiguous; (year, None) if only a year."""
+    if not isinstance(v, str):
+        return None
+    s = v.strip()
+    m = re.match(r"^[\[\]/\s]*(\d{4})[\[\]/\s]*$", s)          # []/[]/2004 , 20[]  -> year only
+    if m:
+        return (int(m.group(1)), None)
+    m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})$", s)          # ISO
+    if m:
+        return (int(m.group(1)), {int(m.group(2)), int(m.group(3))})
+    for f in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y", "%B %d %Y"):
+        try:
+            d = datetime.strptime(s, f).date()
+            return (d.year, {d.month, d.day})
+        except ValueError:
+            pass
+    m = re.match(r"^\D*(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})\D*$", s)   # a/b/y or b/a/y
+    if m:
+        a, b, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if y < 100:
+            y += 2000 if y < 50 else 1900
+        if 1 <= a <= 31 and 1 <= b <= 31:
+            return (y, {a, b})
+    m = re.search(r"\b(\d{4})\b", s)                          # last resort: any 4-digit year
+    return (int(m.group(1)), None) if m else None
+
+
+def _date_match(gt, pred) -> bool | None:
+    g, p = _date_components(gt), _date_components(pred)
+    if g is None or p is None:
+        return None
+    if g[0] != p[0]:
+        return False
+    if g[1] is None or p[1] is None:      # year-only on one side -> year match is enough
+        return True
+    return g[1] == p[1]
 
 
 _LIST_FIELDS = {"parties", "diagnoses", "line_items"}
@@ -142,9 +180,9 @@ def compare(field: str, gt, pred) -> str:
             return "incorrect"
         return "correct" if abs(a - b) <= max(0.01, 0.01 * max(abs(a), abs(b))) else "incorrect"
     if kind == "date":
-        da, db = _date(gt), _date(pred)
-        if da and db:
-            return "correct" if da == db else "incorrect"
+        dm = _date_match(gt, pred)
+        if dm is not None:
+            return "correct" if dm else "incorrect"
         # neither parses as a date (e.g. term = "perpetual") -> fall back to string
         return "correct" if _str_match(gt, pred) else "incorrect"
     if kind == "list":

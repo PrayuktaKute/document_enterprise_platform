@@ -1,0 +1,127 @@
+{
+  "n_queries_graded": 157,
+  "n_queries_total": 163,
+  "recall_at_5": 0.8217,
+  "mrr_at_5": 0.6142,
+  "collection_points": 844,
+  "recall_at_5_by_type": {
+    "invoice": 0.65,
+    "purchase_order": 0.925,
+    "medical_report": 0.8,
+    "contract": 0.9189
+  },
+  "samples": [
+    {
+      "query": "invoice or receipt from SHELL ISNI PETRO TRADING",
+      "want": [
+        "invoice_019"
+      ],
+      "got": [
+        "invoice_019",
+        "invoice_026",
+        "po_001",
+        "po_013",
+        "invoice_007"
+      ],
+      "rank": 1
+    },
+    {
+      "query": "receipt from SHELL ISNI PETRO TRADING located in LOT 2685 JLN GENTING KLANG 53300 KL SITE 1066",
+      "want": [
+        "invoice_019"
+      ],
+      "got": [
+        "invoice_019",
+        "invoice_011",
+        "invoice_015",
+        "invoice_012",
+        "invoice_004"
+      ],
+      "rank": 1
+    },
+    {
+      "query": "invoice or receipt from YONGFATT ENTERPRISE",
+      "want": [
+        "invoice_003"
+      ],
+      "got": [
+        "invoice_006",
+        "invoice_021",
+        "invoice_026",
+        "contract_2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-",
+        "po_004"
+      ],
+      "rank": null
+    },
+    {
+      "query": "receipt from YONGFATT ENTERPRISE located in NO 122.124. JALAN DEDAP 13 81100 JOHOR BAHRU",
+      "want": [
+        "invoice_003"
+      ],
+      "got": [
+        "invoice_003",
+        "invoice_001",
+        "invoice_006",
+        "invoice_008",
+        "invoice_021"
+      ],
+      "rank": 1
+    },
+    {
+      "query": "invoice or receipt from LIGHTROOM GALLERY SDN BHD",
+      "want": [
+        "invoice_018"
+      ],
+      "got": [
+        "invoice_017",
+        "invoice_016",
+        "invoice_018",
+        "invoice_001",
+        "invoice_023"
+      ],
+      "rank": 3
+    },
+    {
+      "query": "receipt from LIGHTROOM GALLERY SDN BHD located in MALAYSIA",
+      "want": [
+        "invoice_018"
+      ],
+      "got": [
+        "invoice_016",
+        "invoice_018",
+        "invoice_017",
+        "invoice_001",
+        "invoice_023"
+      ],
+      "rank": 2
+    },
+    {
+      "query": "invoice or receipt from SAM SAM TRADING CO",
+      "want": [
+        "invoice_010"
+      ],
+      "got": [
+        "po_023",
+        "invoice_023",
+        "invoice_011",
+        "invoice_007",
+        "invoice_021"
+      ],
+      "rank": null
+    },
+    {
+      "query": "receipt from SAM SAM TRADING CO located in 40400 SHAH ALAM.",
+      "want": [
+        "invoice_010"
+      ],
+      "got": [
+        "invoice_010",
+        "invoice_011",
+        "invoice_012",
+        "invoice_015",
+        "invoice_006"
+      ],
+      "rank": 1
+    }
+  ]
+}

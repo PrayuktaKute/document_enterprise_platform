@@ -6,6 +6,19 @@ semantic retrieval — across **invoices, purchase orders, medical reports, and 
 
 **Stack:** Python · FastAPI · LangGraph · Qwen2.5‑3B (Ollama) · Docling · BAAI BGE‑M3 · Qdrant · PostgreSQL · Docker · Streamlit
 
+## Results (120-doc eval, Qwen2.5-3B via Ollama)
+
+| Metric | Value |
+|---|---|
+| **Field-level extraction accuracy** | **82.7%** overall — purchase_order 99%, medical_report 90%, invoice 64% (noisy receipt OCR), contract 54% (long-doc, `field_by_field`) |
+| Document classification accuracy | 94.2% |
+| **Manual-verification reduction** | **65%** of documents auto-accepted; accuracy within the auto-accepted set 90.8% vs 56.5% in the human-review queue |
+| Confidence calibration (ECE) | 0.078 — token log-probability aggregation, see `artifacts/calibration.png` |
+| **Semantic retrieval — recall@5** | **82.2%** (MRR@5 0.61) over 844 indexed chunks / 157 graded queries |
+| Mean pipeline latency (T4 GPU) | 10 s/doc |
+
+Regenerate with `scripts/eval_extraction.py` + `scripts/eval_retrieval.py` (see [Evaluation](#evaluation)).
+
 ---
 
 ## Architecture
