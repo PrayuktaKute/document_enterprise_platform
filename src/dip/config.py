@@ -37,6 +37,7 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg://dip:dip@localhost:5432/dip"
     qdrant_url: str = "http://localhost:6333"
+    qdrant_path: str = ""          # if set, use embedded on-disk Qdrant (no server) -- for Colab
     qdrant_collection: str = "documents"
 
     confidence_method: str = "logprob_min"

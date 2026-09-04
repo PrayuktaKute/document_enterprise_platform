@@ -65,7 +65,10 @@ def main() -> None:
 
     if args.snapshot:
         name = store.snapshot()
-        print(f"snapshot: {name}  (server storage: /qdrant/snapshots/{store.collection}/{name})")
+        if name:
+            print(f"snapshot: {name}  (server storage: /qdrant/snapshots/{store.collection}/{name})")
+        else:
+            print("snapshot skipped (embedded Qdrant mode)")
 
 
 if __name__ == "__main__":

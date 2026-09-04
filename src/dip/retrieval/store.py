@@ -18,8 +18,11 @@ def _point_id(chunk_id: str) -> str:
 
 
 class VectorStore:
-    def __init__(self, url: str, collection: str, dim: int = 1024) -> None:
-        self.client = QdrantClient(url=url)
+    def __init__(
+        self, url: str | None, collection: str, dim: int = 1024, path: str | None = None
+    ) -> None:
+        self.client = QdrantClient(path=path) if path else QdrantClient(url=url)
+        self.embedded = bool(path)
         self.collection = collection
         self.dim = dim
 
@@ -27,7 +30,7 @@ class VectorStore:
     def from_config(cls) -> "VectorStore":
         s = get_settings()
         pc = get_pipeline_config().embedding
-        return cls(s.qdrant_url, s.qdrant_collection, pc.dense_dim)
+        return cls(s.qdrant_url, s.qdrant_collection, pc.dense_dim, path=s.qdrant_path or None)
 
     # ------------------------------------------------------------------ #
     def ensure_collection(self, recreate: bool = False) -> None:
@@ -40,12 +43,13 @@ class VectorStore:
                 self.collection,
                 vectors_config=qm.VectorParams(size=self.dim, distance=qm.Distance.COSINE),
             )
-            self.client.create_payload_index(
-                self.collection, "doc_type", qm.PayloadSchemaType.KEYWORD
-            )
-            self.client.create_payload_index(
-                self.collection, "doc_id", qm.PayloadSchemaType.KEYWORD
-            )
+            for field in ("doc_type", "doc_id"):
+                try:
+                    self.client.create_payload_index(
+                        self.collection, field, qm.PayloadSchemaType.KEYWORD
+                    )
+                except Exception:  # noqa: BLE001  (embedded mode may not support this)
+                    pass
 
     def upsert_chunks(
         self, chunks: list[Chunk], vectors: list[list[float]], extra_payload: dict | None = None
@@ -91,8 +95,13 @@ class VectorStore:
         return self.client.count(self.collection, exact=True).count
 
     # ------------------------------------------------------------------ #
-    def snapshot(self) -> str:
-        return self.client.create_snapshot(self.collection).name
+    def snapshot(self) -> str | None:
+        if self.embedded:
+            return None
+        snap = self.client.create_snapshot(self.collection)
+        return snap.name if snap else None
 
     def list_snapshots(self) -> list[str]:
+        if self.embedded:
+            return []
         return [s.name for s in self.client.list_snapshots(self.collection)]
