@@ -32,6 +32,9 @@ Regenerate with `scripts/eval_extraction.py` + `scripts/eval_retrieval.py` (see 
 Sample documents to try in the **Upload & Process** tab live in [`test_samples/`](test_samples/)
 (one per type; `python scripts/shoot_screenshots.py` regenerates the images above from a running app).
 
+**For the full rationale behind every design decision, the evaluation methodology, failure
+analysis, and a production roadmap, see [`docs/ENGINEERING.md`](docs/ENGINEERING.md).**
+
 ---
 
 ## Architecture
