@@ -1,43 +1,43 @@
-{"query": "invoice issued by SHELL ISNI PETRO TRADING", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
-{"query": "receipt with a total of 86.00", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
-{"query": "invoice issued by YONGFATT ENTERPRISE", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
-{"query": "receipt with a total of 80.90", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
-{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
-{"query": "receipt with a total of 73.00", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
-{"query": "invoice issued by SAM SAM TRADING CO", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
-{"query": "receipt with a total of 14.10", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
-{"query": "invoice issued by C W KHOO HARDWARE SDN BHD", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
-{"query": "receipt with a total of 21.20", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
-{"query": "invoice issued by INDAH GIFT & HOME DECO", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
-{"query": "receipt with a total of 60.30", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
-{"query": "invoice issued by ASIA MART", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
-{"query": "receipt with a total of 32.70", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
-{"query": "invoice issued by RESTORAN HASSANBISTRO", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
-{"query": "receipt with a total of 15.00", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
-{"query": "invoice issued by HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
-{"query": "receipt with a total of 15.90", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
-{"query": "invoice issued by 99 SPEED MART S/B", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
-{"query": "receipt with a total of 2.50", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
-{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
-{"query": "receipt with a total of 73.00", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
-{"query": "invoice issued by HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
-{"query": "receipt with a total of 15.90", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
-{"query": "invoice issued by BOOK TA .K (TAMAN DAYA) SDN BHD", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
-{"query": "receipt with a total of 9.00", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
-{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
-{"query": "receipt with a total of 39.80", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
-{"query": "invoice issued by AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
-{"query": "receipt with a total of 15.00", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
-{"query": "invoice issued by SOON HUAT MACHINERY ENTERPRISE", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
-{"query": "receipt with a total of 327.00", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
-{"query": "invoice issued by MR D.I.Y. (JOHOR) SDN BHD", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
-{"query": "receipt with a total of 33.90", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
-{"query": "invoice issued by TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
-{"query": "receipt with a total of 27.55", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
-{"query": "invoice issued by TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
-{"query": "receipt with a total of 55.10", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
-{"query": "invoice issued by FUYI MINI MARKET", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
-{"query": "receipt with a total of 9.00", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
+{"query": "invoice or receipt from SHELL ISNI PETRO TRADING", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
+{"query": "receipt from SHELL ISNI PETRO TRADING located in LOT 2685 JLN GENTING KLANG 53300 KL SITE 1066", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
+{"query": "invoice or receipt from YONGFATT ENTERPRISE", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
+{"query": "receipt from YONGFATT ENTERPRISE located in NO 122.124. JALAN DEDAP 13 81100 JOHOR BAHRU", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
+{"query": "invoice or receipt from LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
+{"query": "receipt from LIGHTROOM GALLERY SDN BHD located in MALAYSIA", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
+{"query": "invoice or receipt from SAM SAM TRADING CO", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
+{"query": "receipt from SAM SAM TRADING CO located in 40400 SHAH ALAM.", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
+{"query": "invoice or receipt from C W KHOO HARDWARE SDN BHD", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
+{"query": "receipt from C W KHOO HARDWARE SDN BHD located in KAWASAN PERINDUSTRIAN BUKIT SERDANG", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
+{"query": "invoice or receipt from INDAH GIFT & HOME DECO", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
+{"query": "receipt from INDAH GIFT & HOME DECO located in JOHOR.", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
+{"query": "invoice or receipt from ASIA MART", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
+{"query": "receipt from ASIA MART located in SELANGOR.", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
+{"query": "invoice or receipt from RESTORAN HASSANBISTRO", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
+{"query": "receipt from RESTORAN HASSANBISTRO located in NO.2-1-1 JALAN SEITA PRIMA Q U 13/Q SEITA ALAM 40170 SHAN ALAM SELANGOR", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
+{"query": "invoice or receipt from HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
+{"query": "receipt from HOME MASTER HARDWARE & ELECTRICAL located in SELANGOR.", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
+{"query": "invoice or receipt from 99 SPEED MART S/B", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
+{"query": "receipt from 99 SPEED MART S/B located in SELANGOR 1076-IJOK", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
+{"query": "invoice or receipt from LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
+{"query": "receipt from LIGHTROOM GALLERY SDN BHD located in MALAYSIA", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
+{"query": "invoice or receipt from HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
+{"query": "receipt from HOME MASTER HARDWARE & ELECTRICAL located in SELANGOR.", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
+{"query": "invoice or receipt from BOOK TA .K (TAMAN DAYA) SDN BHD", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
+{"query": "receipt from BOOK TA .K (TAMAN DAYA) SDN BHD located in JOHOR.", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
+{"query": "invoice or receipt from LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
+{"query": "receipt from LIGHTROOM GALLERY SDN BHD located in MALAYSIA", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
+{"query": "invoice or receipt from AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
+{"query": "receipt from AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD located in 40170 SHAH ALAM", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
+{"query": "invoice or receipt from SOON HUAT MACHINERY ENTERPRISE", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
+{"query": "receipt from SOON HUAT MACHINERY ENTERPRISE located in 81200 JOHOR BAHRU JOHOR", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
+{"query": "invoice or receipt from MR D.I.Y. (JOHOR) SDN BHD", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
+{"query": "receipt from MR D.I.Y. (JOHOR) SDN BHD located in SELANGOR (MR DIY TESCO TERBAU)", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
+{"query": "invoice or receipt from TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
+{"query": "receipt from TEO HENG STATIONERY & BOOKS located in 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
+{"query": "invoice or receipt from TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
+{"query": "receipt from TEO HENG STATIONERY & BOOKS located in 45600 BATANG BEJUNTAL SELANGOR DARUL EHSAN", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
+{"query": "invoice or receipt from FUYI MINI MARKET", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
+{"query": "receipt from FUYI MINI MARKET located in KUALA SELANGOR.", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
 {"query": "purchase order sent to vendor Gould-Foster", "relevant_doc_ids": ["po_000"], "doc_type": "purchase_order"}
 {"query": "order that includes Ethernet cable Cat6", "relevant_doc_ids": ["po_000"], "doc_type": "purchase_order"}
 {"query": "purchase order sent to vendor Smith Inc", "relevant_doc_ids": ["po_023"], "doc_type": "purchase_order"}

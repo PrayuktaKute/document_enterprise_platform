@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import random
+import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -33,10 +34,16 @@ def queries_for(row: dict) -> list[str]:
     gt, t = row["ground_truth"], row["doc_type"]
     out: list[str] = []
     if t == "invoice":
-        if gt.get("company"):
-            out.append(f"invoice issued by {gt['company']}")
-        if gt.get("total"):
-            out.append(f"receipt with a total of {gt['total']}")
+        comp = (gt.get("company") or "").strip()
+        addr = (gt.get("address") or "").strip()
+        if comp:
+            out.append(f"invoice or receipt from {comp}")
+        if comp and addr:
+            # last address segment is usually the city / region
+            tail = [s.strip() for s in re.split(r",|\n", addr) if s.strip()]
+            loc = tail[-1] if tail else ""
+            if loc:
+                out.append(f"receipt from {comp} located in {loc}")
     elif t == "purchase_order":
         if gt.get("vendor"):
             out.append(f"purchase order sent to vendor {gt['vendor']}")
