@@ -19,6 +19,19 @@ semantic retrieval — across **invoices, purchase orders, medical reports, and 
 
 Regenerate with `scripts/eval_extraction.py` + `scripts/eval_retrieval.py` (see [Evaluation](#evaluation)).
 
+## The app
+
+| Metrics dashboard | Human-review queue |
+|---|---|
+| ![metrics](docs/screenshots/metrics.png) | ![review](docs/screenshots/review_queue.png) |
+
+| Semantic search | |
+|---|---|
+| ![search](docs/screenshots/search.png) | The **Review Queue** shows every field's log-probability confidence, the rule-check outcomes, and an editable extraction that re-indexes on approval. |
+
+Sample documents to try in the **Upload & Process** tab live in [`test_samples/`](test_samples/)
+(one per type; `python scripts/shoot_screenshots.py` regenerates the images above from a running app).
+
 ---
 
 ## Architecture

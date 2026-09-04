@@ -26,3 +26,6 @@ qdrant_snapshot/
 
 # stray runtime logs
 data/*.log
+
+# runtime uploads
+data/uploads/
