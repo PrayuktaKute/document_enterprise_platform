@@ -23,3 +23,6 @@ qdrant_snapshot/
 .DS_Store
 .idea/
 .vscode/
+
+# stray runtime logs
+data/*.log
