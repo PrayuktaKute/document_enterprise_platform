@@ -8,6 +8,11 @@ extraction:
   strategy: single_pass
   max_output_tokens: 700
   few_shot: config/examples/invoice.json
+  hint: >
+    This text is OCR from a receipt/invoice image and may be noisy. 'company' is the
+    seller/merchant name near the top. 'total' is the final amount payable (labelled
+    TOTAL, AMOUNT DUE, or GRAND TOTAL), not a line item or subtotal. 'address' is the
+    seller's street address. Keep the raw printed number format for 'total'.
 
 validation:
   critical_rules:

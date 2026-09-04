@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_007",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_007.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-82016 Order Date: 2025-10-25 Requested Delivery: 2025-11-26\n\nBuyer: Harris PLC Vendor: Baker, Poole and Martin\n\nShip To:\n\n414 Odonnell Knolls, New Amber, NY 43710\n\n| Description       |   Qty |   Unit (USD) |   Amount (USD) |\n|-------------------|-------|--------------|----------------|\n| HDPE pipe 32mm    |    28 |       207.70 |        5815.60 |\n| LED panel 40W     |    27 |       236.79 |        6393.33 |\n| Packing tape roll |    25 |       229.96 |        5749.00 |\n| HDPE pipe 32mm    |     6 |        44.35 |         266.10 |\n\n## Subtotal 18224.03 Tax 911.20 Total 19135.23\n\nAuthorised by Lisa Kramer, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-82016 Order Date: 2025-10-25 Requested Delivery: 2025-11-26\n\nBuyer: Harris PLC Vendor: Baker, Poole and Martin\n\nShip To:\n\n414 Odonnell Knolls, New Amber, NY 43710\n\n| Description       |   Qty |   Unit (USD) |   Amount (USD) |\n|-------------------|-------|--------------|----------------|\n| HDPE pipe 32mm    |    28 |       207.70 |        5815.60 |\n| LED panel 40W     |    27 |       236.79 |        6393.33 |\n| Packing tape roll |    25 |       229.96 |        5749.00 |\n| HDPE pipe 32mm    |     6 |        44.35 |         266.10 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 18224.03 Tax 911.20 Total 19135.23",
+      "text": "Authorised by Lisa Kramer, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

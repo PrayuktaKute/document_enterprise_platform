@@ -1,0 +1,15 @@
+{
+  "doc_id": "invoice_019",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_019.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## 3 180048\n\nShell ISNI PETRO TRADING Company No:002643278-A LOT 2685 JLN GENTING KLANG 53300KL Site 1066 Telephone 03- 40212008 GST No: 0010 9010 5344\n\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; Receipi &gt;&gt;&gt;&gt;&gt;&gt;&gt; Invoice number 60000053668\n\n35.10 litre Pump # 02 V-Power 97 R11 86.00 A 2450 RM i litre Total RM 86.00 Visa RM 86.00 6.00%GST A RM 4.87 Total Gross A RM 86.00\n\nShell Loyalty Card 6018840126306675 Points Awarded 35\n\nDate Tine Num OPT 18/03/18 15:17 06051 02\n\nDiesel &amp; Petrol RON 95 given Relief under Section 56 (3) (b) GST Act 2014\n\nThank You Pleasae Come Again",
+  "sections": [
+    {
+      "heading": "3 180048",
+      "text": "Shell ISNI PETRO TRADING Company No:002643278-A LOT 2685 JLN GENTING KLANG 53300KL Site 1066 Telephone 03- 40212008 GST No: 0010 9010 5344\n\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; Receipi &gt;&gt;&gt;&gt;&gt;&gt;&gt; Invoice number 60000053668\n\n35.10 litre Pump # 02 V-Power 97 R11 86.00 A 2450 RM i litre Total RM 86.00 Visa RM 86.00 6.00%GST A RM 4.87 Total Gross A RM 86.00\n\nShell Loyalty Card 6018840126306675 Points Awarded 35\n\nDate Tine Num OPT 18/03/18 15:17 06051 02\n\nDiesel &amp; Petrol RON 95 given Relief under Section 56 (3) (b) GST Act 2014\n\nThank You Pleasae Come Again",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

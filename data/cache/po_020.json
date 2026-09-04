@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_020",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_020.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-72657 Order Date: 2025-05-01 Requested Delivery: 2025-06-11\n\nBuyer: Johnson-Torres Vendor: Ross Inc Ship To: 965 Hernandez Stream, North Mallory, VT 67738\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Pallet wrap film     |    34 |       210.68 |        7163.12 |\n| LED panel 40W        |    36 |       214.53 |        7723.08 |\n| Safety gloves (pair) |    29 |        35.07 |        1017.03 |\n\n## Subtotal 15903.23 Tax 0.00\n\n## Total 15903.23\n\nAuthorised by Morgan Burnett, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-72657 Order Date: 2025-05-01 Requested Delivery: 2025-06-11\n\nBuyer: Johnson-Torres Vendor: Ross Inc Ship To: 965 Hernandez Stream, North Mallory, VT 67738\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Pallet wrap film     |    34 |       210.68 |        7163.12 |\n| LED panel 40W        |    36 |       214.53 |        7723.08 |\n| Safety gloves (pair) |    29 |        35.07 |        1017.03 |",
+      "page": null
+    },
+    {
+      "heading": "Total 15903.23",
+      "text": "Authorised by Morgan Burnett, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

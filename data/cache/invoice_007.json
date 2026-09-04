@@ -1,0 +1,25 @@
+{
+  "doc_id": "invoice_007",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_007.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## tan chay yee\n\n(801580-T )\n\n## S.H.H.MOTOR（SUNGAI RENGIT）SDN.BHD.\n\nNo. 343, Jalan Kurau, Sungai Rengit, 81620 Pengerang, Johor.\n\nTel: 07-8263254Fax: 07-8266888\n\n## INVOICE\n\nITEM/DESC.\n\nQTY U.PRICE RM(TOTAL)\n\n4132 CROCS 300X17 TUBES\n\n20.00\n\n20.00\n\nSUB TOTAL :\n\n20.00\n\nGRAND TOTAL :\n\n20.00\n\nROUNDING ADJUSTMENT :\n\n0.00\n\nCASH :\n\n20.00\n\nCHANGE :\n\n0.00\n\n23-01-2019 13:14:15 PM, PRINT BY: root\n\nINVOICE NO: 22497\n\nTOKEN NO: O, STATION ID: A1, PID: POS\n\nThanks Your Support\n\n<!-- image -->",
+  "sections": [
+    {
+      "heading": "tan chay yee",
+      "text": "(801580-T )",
+      "page": null
+    },
+    {
+      "heading": "S.H.H.MOTOR（SUNGAI RENGIT）SDN.BHD.",
+      "text": "No. 343, Jalan Kurau, Sungai Rengit, 81620 Pengerang, Johor.\n\nTel: 07-8263254Fax: 07-8266888",
+      "page": null
+    },
+    {
+      "heading": "INVOICE",
+      "text": "ITEM/DESC.\n\nQTY U.PRICE RM(TOTAL)\n\n4132 CROCS 300X17 TUBES\n\n20.00\n\n20.00\n\nSUB TOTAL :\n\n20.00\n\nGRAND TOTAL :\n\n20.00\n\nROUNDING ADJUSTMENT :\n\n0.00\n\nCASH :\n\n20.00\n\nCHANGE :\n\n0.00\n\n23-01-2019 13:14:15 PM, PRINT BY: root\n\nINVOICE NO: 22497\n\nTOKEN NO: O, STATION ID: A1, PID: POS\n\nThanks Your Support\n\n<!-- image -->",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

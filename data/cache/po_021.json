@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_021",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_021.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-97969 Order Date: 2025-08-13 Requested Delivery: 2025-08-24\n\nBuyer: Conley, Ballard and Mckenzie Vendor: Browning PLC Ship To: 00251 Houston Point, Lake Andrewside, TX 32555\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Hydraulic seal kit |     5 |        53.01 |         265.05 |\n| LED panel 40W      |     8 |       215.54 |        1724.32 |\n| HDPE pipe 32mm     |    24 |        36.46 |         875.04 |\n\n## Subtotal 2864.41 Tax 143.22 Total 3007.63\n\nAuthorised by Aaron Salinas DDS, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-97969 Order Date: 2025-08-13 Requested Delivery: 2025-08-24\n\nBuyer: Conley, Ballard and Mckenzie Vendor: Browning PLC Ship To: 00251 Houston Point, Lake Andrewside, TX 32555\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Hydraulic seal kit |     5 |        53.01 |         265.05 |\n| LED panel 40W      |     8 |       215.54 |        1724.32 |\n| HDPE pipe 32mm     |    24 |        36.46 |         875.04 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 2864.41 Tax 143.22 Total 3007.63",
+      "text": "Authorised by Aaron Salinas DDS, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,15 @@
+{
+  "doc_id": "invoice_028",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_028.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "<!-- image -->\n\n| 10:43AM   | 10:43AM            | 10:43AM                        | 10:43AM                         | 568582            | 24-01-18          |\n|-----------|--------------------|--------------------------------|---------------------------------|-------------------|-------------------|\n|           |                    | 1973 GARBAGE 1974 GARBAGE      | E BAG (BLUE) 74C BAG (GREEN) 74 |                   | RM1.25 s RM1.25 s |\n|           |                    | Total Sales (Inclusive GST) RM |                                 | CASH RM CHANGE RM | 2.50 5.00         |\n|           | GST Summary ≤ = 6% |                                | Amount(RM) 2.36                 |                   | 2.50 Tax(RM) .14  |\n\nThank k You. Ple ccome again Keep the invoice for a applicable returns",
+  "sections": [
+    {
+      "heading": null,
+      "text": "<!-- image -->\n\n| 10:43AM   | 10:43AM            | 10:43AM                        | 10:43AM                         | 568582            | 24-01-18          |\n|-----------|--------------------|--------------------------------|---------------------------------|-------------------|-------------------|\n|           |                    | 1973 GARBAGE 1974 GARBAGE      | E BAG (BLUE) 74C BAG (GREEN) 74 |                   | RM1.25 s RM1.25 s |\n|           |                    | Total Sales (Inclusive GST) RM |                                 | CASH RM CHANGE RM | 2.50 5.00         |\n|           | GST Summary ≤ = 6% |                                | Amount(RM) 2.36                 |                   | 2.50 Tax(RM) .14  |\n\nThank k You. Ple ccome again Keep the invoice for a applicable returns",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

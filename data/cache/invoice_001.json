@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_001",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_001.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## tan woon yann\n\nINDAH GIFT &amp; HOME DECO 27,JALAN DEDAP 13, TAMAN JOHOR JAYA, 81100 JOHOR BAHRU,JOHOR. Tel:07-3507405 Fax:07-3558160\n\n## RECEIPT\n\n19/10/2018 20:49:59 #01\n\nCashier: CN\n\nLocation/SP: 05 /0531\n\nMB:M026588\n\nRoom No: 01\n\n050100035279\n\nDesc/Item Qty Price Amt(RM)\n\nST-PRIVILEGE CARD/GD INDAH\n\n88888\n\n1\n\n10.00\n\n10.00\n\nGF-TABLE LAMP/STITCH\n\n&lt;i&gt;\n\n62483\n\n1\n\n@DISC\n\n55.90\n\n55.90\n\n10.00%\n\n-5.59\n\n#Total Qty\n\nTOTAL AMT....\n\nRM\n\n60.31\n\nROUNDING ADJ.........\n\n-0.01\n\nCASH\n\nCHANGE..\n\nRK\n\n60.30\n\nRM\n\n70.30\n\nRM\n\n10.00\n\nThank You ! Please Come Again ! Goods Sold Are Not Returnable Dealing In Wholesale And Retail.",
+  "sections": [
+    {
+      "heading": "tan woon yann",
+      "text": "INDAH GIFT &amp; HOME DECO 27,JALAN DEDAP 13, TAMAN JOHOR JAYA, 81100 JOHOR BAHRU,JOHOR. Tel:07-3507405 Fax:07-3558160",
+      "page": null
+    },
+    {
+      "heading": "RECEIPT",
+      "text": "19/10/2018 20:49:59 #01\n\nCashier: CN\n\nLocation/SP: 05 /0531\n\nMB:M026588\n\nRoom No: 01\n\n050100035279\n\nDesc/Item Qty Price Amt(RM)\n\nST-PRIVILEGE CARD/GD INDAH\n\n88888\n\n1\n\n10.00\n\n10.00\n\nGF-TABLE LAMP/STITCH\n\n&lt;i&gt;\n\n62483\n\n1\n\n@DISC\n\n55.90\n\n55.90\n\n10.00%\n\n-5.59\n\n#Total Qty\n\nTOTAL AMT....\n\nRM\n\n60.31\n\nROUNDING ADJ.........\n\n-0.01\n\nCASH\n\nCHANGE..\n\nRK\n\n60.30\n\nRM\n\n70.30\n\nRM\n\n10.00\n\nThank You ! Please Come Again ! Goods Sold Are Not Returnable Dealing In Wholesale And Retail.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

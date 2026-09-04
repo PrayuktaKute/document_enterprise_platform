@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_007",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_007.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Angela Perez Patient ID: MRN-855684 Report Date: 2025-09-04 Ordering Physician: Dr. Coleman Study / Modality: CT Abdomen Body Site: Abdomen and pelvis\n\n## FINDINGS\n\nLiver, spleen, pancreas, adrenal glands and kidneys are unremarkable. No free fluid or lymphadenopathy. Bowel loops are non-dilated.\n\n## IMPRESSION\n\nNo acute abnormality of the abdomen and pelvis.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Angela Perez Patient ID: MRN-855684 Report Date: 2025-09-04 Ordering Physician: Dr. Coleman Study / Modality: CT Abdomen Body Site: Abdomen and pelvis",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "Liver, spleen, pancreas, adrenal glands and kidneys are unremarkable. No free fluid or lymphadenopathy. Bowel loops are non-dilated.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "No acute abnormality of the abdomen and pelvis.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

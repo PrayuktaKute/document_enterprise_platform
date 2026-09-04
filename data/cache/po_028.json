@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_028",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_028.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-50341 Order Date: 2025-05-12 Requested Delivery: 2025-06-20\n\nBuyer: Clay Ltd Vendor: Richardson PLC Ship To: 8364 Goodwin Parks Suite 952, North Joseph, IA 50906\n\n| Description          |   Qty |   Unit (INR) |   Amount (INR) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    22 |        49.67 |        1092.74 |\n| Pallet wrap film     |     9 |        98.62 |         887.58 |\n| Ethernet cable Cat6  |     4 |       201.28 |         805.12 |\n\n## Subtotal 2785.44 Tax 0.00\n\n## Total 2785.44\n\nAuthorised by Jeremy Finley, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-50341 Order Date: 2025-05-12 Requested Delivery: 2025-06-20\n\nBuyer: Clay Ltd Vendor: Richardson PLC Ship To: 8364 Goodwin Parks Suite 952, North Joseph, IA 50906\n\n| Description          |   Qty |   Unit (INR) |   Amount (INR) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    22 |        49.67 |        1092.74 |\n| Pallet wrap film     |     9 |        98.62 |         887.58 |\n| Ethernet cable Cat6  |     4 |       201.28 |         805.12 |",
+      "page": null
+    },
+    {
+      "heading": "Total 2785.44",
+      "text": "Authorised by Jeremy Finley, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

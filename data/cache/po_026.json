@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_026",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_026.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-79063 Order Date: 2025-08-16 Requested Delivery: 2025-08-25\n\nBuyer: Gentry-Shepard Vendor: Cain Ltd Ship To: 67924 Williams Plaza, East Thomas, MA 37430\n\n| Description       |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------|-------|--------------|----------------|\n| Copper wire 2.5mm |    11 |        64.70 |         711.70 |\n| HDPE pipe 32mm    |    13 |       223.91 |        2910.83 |\n| Packing tape roll |    20 |       128.63 |        2572.60 |\n\nSubtotal\n\nTax\n\n6195.13\n\n309.76\n\nTotal\n\n6504.89\n\nAuthorised by Patrick Cherry, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-79063 Order Date: 2025-08-16 Requested Delivery: 2025-08-25\n\nBuyer: Gentry-Shepard Vendor: Cain Ltd Ship To: 67924 Williams Plaza, East Thomas, MA 37430\n\n| Description       |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------|-------|--------------|----------------|\n| Copper wire 2.5mm |    11 |        64.70 |         711.70 |\n| HDPE pipe 32mm    |    13 |       223.91 |        2910.83 |\n| Packing tape roll |    20 |       128.63 |        2572.60 |\n\nSubtotal\n\nTax\n\n6195.13\n\n309.76\n\nTotal\n\n6504.89\n\nAuthorised by Patrick Cherry, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

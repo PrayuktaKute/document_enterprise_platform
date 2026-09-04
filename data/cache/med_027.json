@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_027",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_027.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Heidi Rogers Patient ID: MRN-266792 Report Date: 2026-02-03 Ordering Physician: Dr. Mckay Study / Modality: Knee X-ray Body Site: Left knee\n\n## FINDINGS\n\nNo fracture or dislocation. Joint spaces are preserved. No significant effusion. Lucent line through the proximal tibial metaphysis.\n\n## IMPRESSION\n\nNondisplaced proximal tibial fracture.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Heidi Rogers Patient ID: MRN-266792 Report Date: 2026-02-03 Ordering Physician: Dr. Mckay Study / Modality: Knee X-ray Body Site: Left knee",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No fracture or dislocation. Joint spaces are preserved. No significant effusion. Lucent line through the proximal tibial metaphysis.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Nondisplaced proximal tibial fracture.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

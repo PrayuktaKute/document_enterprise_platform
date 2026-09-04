@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_009",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_009.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-61429 Order Date: 2024-08-18 Requested Delivery: 2024-09-29\n\nBuyer: Mendoza Ltd Vendor: Hanson-Mccullough Ship To: 163 Small Mews, Christopherfurt, NH 53111\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Hydraulic seal kit |    26 |        27.09 |         704.34 |\n| Packing tape roll  |    26 |        17.28 |         449.28 |\n| Copper wire 2.5mm  |    14 |       107.15 |        1500.10 |\n| Copper wire 2.5mm  |    22 |       145.17 |        3193.74 |\n| Copper wire 2.5mm  |     1 |       137.11 |         137.11 |\n\n## Subtotal 5984.57 Tax 0.00 Total 5984.57\n\nAuthorised by Angela Moore, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-61429 Order Date: 2024-08-18 Requested Delivery: 2024-09-29\n\nBuyer: Mendoza Ltd Vendor: Hanson-Mccullough Ship To: 163 Small Mews, Christopherfurt, NH 53111\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Hydraulic seal kit |    26 |        27.09 |         704.34 |\n| Packing tape roll  |    26 |        17.28 |         449.28 |\n| Copper wire 2.5mm  |    14 |       107.15 |        1500.10 |\n| Copper wire 2.5mm  |    22 |       145.17 |        3193.74 |\n| Copper wire 2.5mm  |     1 |       137.11 |         137.11 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 5984.57 Tax 0.00 Total 5984.57",
+      "text": "Authorised by Angela Moore, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

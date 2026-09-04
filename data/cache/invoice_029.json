@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_029",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_029.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## 3-1707067\n\n## (481500-M) C W KHOO HARDWARE SDN BHD\n\nKAWASAN PERINDUSTRIAN BUKIT SERDANG,\n\nNO.50, JALAN PBS 14/11\n\nTel:03-89410243\n\nGST Reg No. : 000549584896\n\nFax: 03-89410243\n\n## Tax Invoice\n\n| Invoice No.                               |                              | : CR 1803/0064 : 01-03-18 5:23:26 PM   |\n|-------------------------------------------|------------------------------|----------------------------------------|\n| Date : c1 Printed Date Item Name Qty      | : khoo : 01-03-18 5:23:30 PM | Unit Price 20.00 SR                    |\n| Cashier No. Counter No. AIR ADAPTOR @ 1 5 | Net Total (MYR) :            | Amount 4.00                            |\n| 5 Item(s)                                 | Total (MYR) : GST @ 6% :     | 20.00 1.20                             |\n|                                           |                              | 21.20                                  |\n|                                           |                              | 0.00                                   |\n|                                           | Rounding Adj. :              | 21.20                                  |\n| Net Total Rounded (MYR) :                 |                              |                                        |\n| Cash                                      | Cash                         | 21.20                                  |\n| Change                                    | Change                       | 0.00                                   |\n\n| GST Summary   |    |   Item Amount (MYR) |   GST (MYR) |\n|---------------|----|---------------------|-------------|\n| SR@6%         |  1 |               20.00 |        1.20 |",
+  "sections": [
+    {
+      "heading": "(481500-M) C W KHOO HARDWARE SDN BHD",
+      "text": "KAWASAN PERINDUSTRIAN BUKIT SERDANG,\n\nNO.50, JALAN PBS 14/11\n\nTel:03-89410243\n\nGST Reg No. : 000549584896\n\nFax: 03-89410243",
+      "page": null
+    },
+    {
+      "heading": "Tax Invoice",
+      "text": "| Invoice No.                               |                              | : CR 1803/0064 : 01-03-18 5:23:26 PM   |\n|-------------------------------------------|------------------------------|----------------------------------------|\n| Date : c1 Printed Date Item Name Qty      | : khoo : 01-03-18 5:23:30 PM | Unit Price 20.00 SR                    |\n| Cashier No. Counter No. AIR ADAPTOR @ 1 5 | Net Total (MYR) :            | Amount 4.00                            |\n| 5 Item(s)                                 | Total (MYR) : GST @ 6% :     | 20.00 1.20                             |\n|                                           |                              | 21.20                                  |\n|                                           |                              | 0.00                                   |\n|                                           | Rounding Adj. :              | 21.20                                  |\n| Net Total Rounded (MYR) :                 |                              |                                        |\n| Cash                                      | Cash                         | 21.20                                  |\n| Change                                    | Change                       | 0.00                                   |\n\n| GST Summary   |    |   Item Amount (MYR) |   GST (MYR) |\n|---------------|----|---------------------|-------------|\n| SR@6%         |  1 |               20.00 |        1.20 |",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

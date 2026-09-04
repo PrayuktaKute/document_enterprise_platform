@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_027",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_027.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-45457 Order Date: 2025-05-08 Requested Delivery: 2025-05-26\n\nBuyer: Grant-Foster Vendor: Sullivan-Allen Ship To: 38783 Escobar Trace, Simmonsside, ID 32493\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    17 |        11.28 |         191.76 |\n| Steel bolts M8       |    33 |       133.37 |        4401.21 |\n| Safety gloves (pair) |    33 |       115.26 |        3803.58 |\n| Aluminium sheet 2mm  |     7 |       158.85 |        1111.95 |\n\n## Subtotal 9508.50 Tax 1711.53\n\n## Total 11220.03\n\nAuthorised by Glenn Davis, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-45457 Order Date: 2025-05-08 Requested Delivery: 2025-05-26\n\nBuyer: Grant-Foster Vendor: Sullivan-Allen Ship To: 38783 Escobar Trace, Simmonsside, ID 32493\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    17 |        11.28 |         191.76 |\n| Steel bolts M8       |    33 |       133.37 |        4401.21 |\n| Safety gloves (pair) |    33 |       115.26 |        3803.58 |\n| Aluminium sheet 2mm  |     7 |       158.85 |        1111.95 |",
+      "page": null
+    },
+    {
+      "heading": "Total 11220.03",
+      "text": "Authorised by Glenn Davis, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_022",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_022.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-73866 Order Date: 2026-03-28 Requested Delivery: 2026-04-29\n\nBuyer: Doyle, King and Jones Vendor: Hurst, Davis and Fox Ship To: 77617 Wang Ridges, North Carol, MA 33785\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Packing tape roll  |    15 |        40.85 |         612.75 |\n| Hydraulic seal kit |    33 |        98.40 |        3247.20 |\n| Hydraulic seal kit |    13 |        87.20 |        1133.60 |\n\n## Subtotal 4993.55 Tax 0.00 Total 4993.55\n\nAuthorised by Melissa Howell, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-73866 Order Date: 2026-03-28 Requested Delivery: 2026-04-29\n\nBuyer: Doyle, King and Jones Vendor: Hurst, Davis and Fox Ship To: 77617 Wang Ridges, North Carol, MA 33785\n\n| Description        |   Qty |   Unit (INR) |   Amount (INR) |\n|--------------------|-------|--------------|----------------|\n| Packing tape roll  |    15 |        40.85 |         612.75 |\n| Hydraulic seal kit |    33 |        98.40 |        3247.20 |\n| Hydraulic seal kit |    13 |        87.20 |        1133.60 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 4993.55 Tax 0.00 Total 4993.55",
+      "text": "Authorised by Melissa Howell, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

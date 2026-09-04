@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -52,21 +53,46 @@ def _num(v):
 def _date(v):
     if not isinstance(v, str):
         return None
+    s = v.strip()
     for f in _DATE_FMTS:
         try:
-            return datetime.strptime(v.strip(), f).date().isoformat()
+            return datetime.strptime(s, f).date().isoformat()
         except ValueError:
             continue
+    # loose: pull a d/m/y or y-m-d substring out of a longer phrase
+    m = re.search(r"\b(\d{1,4}[/-]\d{1,2}[/-]\d{1,4})\b", s)
+    if m:
+        for f in _DATE_FMTS:
+            try:
+                return datetime.strptime(m.group(1), f).date().isoformat()
+            except ValueError:
+                continue
     return None
 
 
+_LIST_FIELDS = {"parties", "diagnoses", "line_items"}
+_DATE_FIELDS = {"agreement_date", "effective_date", "expiration_or_term", "renewal_term"}
+
+
+def _split_names(s: str) -> list[str]:
+    # "A, Inc. (\"A\"); B Ltd (\"B\")" -> ["a inc", "b ltd"]
+    s = re.sub(r"\([^)]*\)", " ", str(s))                 # drop parentheticals / defined terms
+    parts = re.split(r";|\||\band\b|\n|,(?=\s*[A-Z])", s)
+    out = []
+    for p in parts:
+        p = re.sub(r'["“”’�]', "", p).strip(" .\t")
+        p = re.sub(r"\s+", " ", p).lower()
+        if len(p) >= 3:
+            out.append(p)
+    return out
+
+
 def _kind(field: str, gt, pred) -> str:
-    if "date" in field.lower():
+    if "date" in field.lower() or field in _DATE_FIELDS:
         return "date"
-    sample = gt if not _is_empty(gt) else pred
-    if isinstance(sample, list):
+    if field in _LIST_FIELDS or isinstance(gt, list) or isinstance(pred, list):
         return "list"
-    if isinstance(sample, (int, float)):
+    if isinstance(gt if not _is_empty(gt) else pred, (int, float)):
         return "number"
     if field in {"total", "subtotal", "tax", "amount", "unit_price", "quantity"}:
         return "number"
@@ -80,14 +106,20 @@ def _str_match(a: str, b: str) -> bool:
     return max(fuzz.token_sort_ratio(a, b), fuzz.partial_ratio(a, b)) >= _STR_THRESHOLD
 
 
-def _list_f1(gt: list, pred: list) -> float:
-    g = [str(x).lower().strip() for x in gt if str(x).strip()]
-    p = [str(x).lower().strip() for x in pred if str(x).strip()]
+def _to_name_list(v) -> list[str]:
+    if isinstance(v, list):
+        return [re.sub(r"\s+", " ", str(x)).lower().strip(" .\"") for x in v if str(x).strip()]
+    return _split_names(v)
+
+
+def _list_f1(gt, pred) -> float:
+    g = _to_name_list(gt)
+    p = _to_name_list(pred)
     if not g and not p:
         return 1.0
     if not g or not p:
         return 0.0
-    tp = sum(1 for x in g if any(fuzz.token_sort_ratio(x, y) >= _STR_THRESHOLD for y in p))
+    tp = sum(1 for x in g if any(fuzz.partial_ratio(x, y) >= 80 or fuzz.token_sort_ratio(x, y) >= _STR_THRESHOLD for y in p))
     prec = tp / len(p)
     rec = tp / len(g)
     return 0.0 if prec + rec == 0 else 2 * prec * rec / (prec + rec)
@@ -110,12 +142,13 @@ def compare(field: str, gt, pred) -> str:
             return "incorrect"
         return "correct" if abs(a - b) <= max(0.01, 0.01 * max(abs(a), abs(b))) else "incorrect"
     if kind == "date":
-        a, b = _date(gt) or str(gt).strip(), _date(pred) or str(pred).strip()
-        return "correct" if a == b else "incorrect"
+        da, db = _date(gt), _date(pred)
+        if da and db:
+            return "correct" if da == db else "incorrect"
+        # neither parses as a date (e.g. term = "perpetual") -> fall back to string
+        return "correct" if _str_match(gt, pred) else "incorrect"
     if kind == "list":
-        gl = gt if isinstance(gt, list) else [gt]
-        pl = pred if isinstance(pred, list) else [pred]
-        return "correct" if _list_f1(gl, pl) >= _LIST_F1_THRESHOLD else "incorrect"
+        return "correct" if _list_f1(gt, pred) >= _LIST_F1_THRESHOLD else "incorrect"
     return "correct" if _str_match(gt, pred) else "incorrect"
 
 

@@ -1,0 +1,20 @@
+{
+  "doc_id": "smoke_po",
+  "source_path": "data\\raw\\purchase_orders\\po_000.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "PO Number:\n\nPO-19494\n\nOrder Date: 2025-11-29\n\nRequested Delivery: 2025-12-09\n\nBuyer:\n\nJones PLC\n\nVendor:\n\nGould-Foster\n\nShip To:\n\n301 Barnes Garden, New Rogershire, DE 29761\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    38 |        16.27 |         618.26 |\n| Industrial lubricant 5L |    14 |        11.41 |         159.74 |\n\nSubtotal\n\nTax\n\n778.00\n\n140.04\n\nTotal\n\n918.04\n\n## PURCHASE ORDER\n\nAuthorised by Lauren Brown, Procurement",
+  "sections": [
+    {
+      "heading": null,
+      "text": "PO Number:\n\nPO-19494\n\nOrder Date: 2025-11-29\n\nRequested Delivery: 2025-12-09\n\nBuyer:\n\nJones PLC\n\nVendor:\n\nGould-Foster\n\nShip To:\n\n301 Barnes Garden, New Rogershire, DE 29761\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    38 |        16.27 |         618.26 |\n| Industrial lubricant 5L |    14 |        11.41 |         159.74 |\n\nSubtotal\n\nTax\n\n778.00\n\n140.04\n\nTotal\n\n918.04",
+      "page": null
+    },
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "Authorised by Lauren Brown, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_002",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_002.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Eric Harding Patient ID: MRN-291845 Report Date: 2025-11-15 Ordering Physician: Dr. Lee Study / Modality: MRI Brain Body Site: Brain\n\n## FINDINGS\n\nNo acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. Restricted diffusion in the left middle cerebral artery territory.\n\n## IMPRESSION\n\nAcute left MCA territory infarct.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Eric Harding Patient ID: MRN-291845 Report Date: 2025-11-15 Ordering Physician: Dr. Lee Study / Modality: MRI Brain Body Site: Brain",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. Restricted diffusion in the left middle cerebral artery territory.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Acute left MCA territory infarct.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

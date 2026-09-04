@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_003",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_003.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-57393 Order Date: 2025-03-16 Requested Delivery: 2025-04-21\n\nBuyer: Larsen LLC Vendor: Bell, Crawford and Robles Ship To: 49746 Johnson Mountain, Garyville, NM 08228\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Safety gloves (pair)    |    12 |       168.51 |        2022.12 |\n| Safety gloves (pair)    |     6 |       138.93 |         833.58 |\n| Industrial lubricant 5L |    32 |       210.35 |        6731.20 |\n| Pallet wrap film        |    29 |        70.89 |        2055.81 |\n\n## Subtotal 11642.71 Tax 0.00\n\n## Total 11642.71\n\nAuthorised by Dustin Rodgers, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-57393 Order Date: 2025-03-16 Requested Delivery: 2025-04-21\n\nBuyer: Larsen LLC Vendor: Bell, Crawford and Robles Ship To: 49746 Johnson Mountain, Garyville, NM 08228\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Safety gloves (pair)    |    12 |       168.51 |        2022.12 |\n| Safety gloves (pair)    |     6 |       138.93 |         833.58 |\n| Industrial lubricant 5L |    32 |       210.35 |        6731.20 |\n| Pallet wrap film        |    29 |        70.89 |        2055.81 |",
+      "page": null
+    },
+    {
+      "heading": "Total 11642.71",
+      "text": "Authorised by Dustin Rodgers, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

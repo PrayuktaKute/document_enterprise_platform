@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_017",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_017.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-48399 Order Date: 2026-04-15 Requested Delivery: 2026-05-05\n\nBuyer: Arnold, Lopez and Wells Vendor: Smith Ltd Ship To: USS Barrett, FPO AP 57147\n\n| Description         |   Qty |   Unit (EUR) |   Amount (EUR) |\n|---------------------|-------|--------------|----------------|\n| Circuit breaker 16A |    21 |        64.10 |        1346.10 |\n| Hydraulic seal kit  |     9 |        16.96 |         152.64 |\n| Pallet wrap film    |    23 |       215.70 |        4961.10 |\n\nSubtotal 6459.84 Tax 1162.77 Total 7622.61\n\nAuthorised by Kimberly Oneal, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-48399 Order Date: 2026-04-15 Requested Delivery: 2026-05-05\n\nBuyer: Arnold, Lopez and Wells Vendor: Smith Ltd Ship To: USS Barrett, FPO AP 57147\n\n| Description         |   Qty |   Unit (EUR) |   Amount (EUR) |\n|---------------------|-------|--------------|----------------|\n| Circuit breaker 16A |    21 |        64.10 |        1346.10 |\n| Hydraulic seal kit  |     9 |        16.96 |         152.64 |\n| Pallet wrap film    |    23 |       215.70 |        4961.10 |\n\nSubtotal 6459.84 Tax 1162.77 Total 7622.61\n\nAuthorised by Kimberly Oneal, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

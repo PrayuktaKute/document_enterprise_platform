@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_000",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_000.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## tan woon yann\n\n## BOOK TA \\_K (TAMAN DAYA) SDN BHD\n\n789417-W\n\nNO.5: 55,57 &amp; 59, JALAN SAGU 18, TAMAN DAYA,\n\n81100 JOHOR BAHRU, JOHOR.\n\nDocument No: TD01167104 Date : 25/12/2018 8:13:39 PM Cashier: MANIS\n\nMember:\n\n## CASH BILL\n\nCODE/DESC QTY\n\n9556939040118\n\nPRICE\n\nDisc AMOUNT\n\nRM\n\nRM\n\nKF MODELLING CLAY KIDDY FISH\n\n1 PC\n\n9.000\n\n0.00\n\n9.00\n\nTotal :\n\nRour ding Adjustment:\n\n006\n\n0.00\n\nRound d Total (RM):\n\n9.00\n\nCash CHANGE\n\nGOODS SOLD ARE NOT RETURNABLE OR EXCHANGEABLE\n\n<!-- image -->\n\n升物出门，想不退建或更换 如有不便，敬请厚谅。谢谢！\n\nTHANK YOU PLEASE CON'E AGAIN!",
+  "sections": [
+    {
+      "heading": "BOOK TA \\_K (TAMAN DAYA) SDN BHD",
+      "text": "789417-W\n\nNO.5: 55,57 &amp; 59, JALAN SAGU 18, TAMAN DAYA,\n\n81100 JOHOR BAHRU, JOHOR.\n\nDocument No: TD01167104 Date : 25/12/2018 8:13:39 PM Cashier: MANIS\n\nMember:",
+      "page": null
+    },
+    {
+      "heading": "CASH BILL",
+      "text": "CODE/DESC QTY\n\n9556939040118\n\nPRICE\n\nDisc AMOUNT\n\nRM\n\nRM\n\nKF MODELLING CLAY KIDDY FISH\n\n1 PC\n\n9.000\n\n0.00\n\n9.00\n\nTotal :\n\nRour ding Adjustment:\n\n006\n\n0.00\n\nRound d Total (RM):\n\n9.00\n\nCash CHANGE\n\nGOODS SOLD ARE NOT RETURNABLE OR EXCHANGEABLE\n\n<!-- image -->\n\n升物出门，想不退建或更换 如有不便，敬请厚谅。谢谢！\n\nTHANK YOU PLEASE CON'E AGAIN!",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

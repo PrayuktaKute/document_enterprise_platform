@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_002",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_002.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-23507 Order Date: 2024-12-08 Requested Delivery: 2024-12-26\n\nBuyer: Miller LLC Vendor: Bauer Ltd Ship To: 749 David Manor Apt. 527, Williamsland, WV 73649\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Ethernet cable Cat6  |     7 |       132.59 |         928.13 |\n| Copper wire 2.5mm    |    37 |        16.66 |         616.42 |\n| Safety gloves (pair) |    32 |       164.09 |        5250.88 |\n\nSubtotal\n\n6795.43\n\nTax\n\n1223.18\n\n## Total 8018.61\n\nAuthorised by Sheri Edwards, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-23507 Order Date: 2024-12-08 Requested Delivery: 2024-12-26\n\nBuyer: Miller LLC Vendor: Bauer Ltd Ship To: 749 David Manor Apt. 527, Williamsland, WV 73649\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Ethernet cable Cat6  |     7 |       132.59 |         928.13 |\n| Copper wire 2.5mm    |    37 |        16.66 |         616.42 |\n| Safety gloves (pair) |    32 |       164.09 |        5250.88 |\n\nSubtotal\n\n6795.43\n\nTax\n\n1223.18",
+      "page": null
+    },
+    {
+      "heading": "Total 8018.61",
+      "text": "Authorised by Sheri Edwards, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

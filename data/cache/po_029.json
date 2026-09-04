@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_029",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_029.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-66458 Order Date: 2024-10-05 Requested Delivery: 2024-10-28\n\nBuyer: Gallagher, Brock and Donaldson Vendor: Martinez Group\n\nShip To:\n\n8773 Jeffrey Drive, Port Jennifermouth, CO 72787\n\n| Description        |   Qty |   Unit (USD) |   Amount (USD) |\n|--------------------|-------|--------------|----------------|\n| Steel bolts M8     |     6 |       160.49 |         962.94 |\n| Hydraulic seal kit |    33 |       161.75 |        5337.75 |\n| LED panel 40W      |    39 |        60.03 |        2341.17 |\n\nSubtotal\n\nTax\n\n8641.86\n\n691.35\n\nTotal\n\n9333.21\n\nAuthorised by April Martinez, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-66458 Order Date: 2024-10-05 Requested Delivery: 2024-10-28\n\nBuyer: Gallagher, Brock and Donaldson Vendor: Martinez Group\n\nShip To:\n\n8773 Jeffrey Drive, Port Jennifermouth, CO 72787\n\n| Description        |   Qty |   Unit (USD) |   Amount (USD) |\n|--------------------|-------|--------------|----------------|\n| Steel bolts M8     |     6 |       160.49 |         962.94 |\n| Hydraulic seal kit |    33 |       161.75 |        5337.75 |\n| LED panel 40W      |    39 |        60.03 |        2341.17 |\n\nSubtotal\n\nTax\n\n8641.86\n\n691.35\n\nTotal\n\n9333.21\n\nAuthorised by April Martinez, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

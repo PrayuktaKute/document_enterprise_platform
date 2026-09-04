@@ -1,0 +1,25 @@
+{
+  "doc_id": "invoice_009",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_009.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## 1950 1950\n\n<!-- image -->\n\nGerbang Alaf Restaurants Sdn Bhd (65351-M)\n\nGolden Arches Restaurants Sdn Bnd Licensee ofMcDonald's\n\nformerly known as\n\nLevel 6, Bangunan TH, Damansara Uptown3 No.3, Jalan SS21/39,47400 Petaling Jaya Selangor\n\n(GST ID No: 000504664064) McDonald's BHP Taman Melawati(#328) Tel No. 03-4162-2318 TAX INVOICE\n\n## MFY Side 1\n\n| INV#003281900229170                   |       |\n|---------------------------------------|-------|\n| ORD #50 -REG #19- 18/01/2018 10:27:03 |       |\n| QTY ITEM                              | TOTAL |\n| 2ChicMcMuffin                         | 11.00 |\n| 1 M Porridge                          | 5.60  |\n| 1 BM 2HotCakes 1 L Coke               | 10.00 |\n| TakeOutTotal(incl GST)                | 26.60 |\n| Total Rounded                         | 26.60 |\n| Cash Tendered                         | 00.00 |\n| Change                                | 73.40 |\n| TOTAL INCLUDES 6%GST                  | 1.51  |\n\nWe'd love to hear your feedback!\n\nsit www.mcdfeedback.com.my OR Download My McD Feedback from Google Play/App Store\n\n## share experience to your\n\nThank You and Please Come Again. Customer Service Hotline e :03-2726-5600",
+  "sections": [
+    {
+      "heading": "1950 1950",
+      "text": "<!-- image -->\n\nGerbang Alaf Restaurants Sdn Bhd (65351-M)\n\nGolden Arches Restaurants Sdn Bnd Licensee ofMcDonald's\n\nformerly known as\n\nLevel 6, Bangunan TH, Damansara Uptown3 No.3, Jalan SS21/39,47400 Petaling Jaya Selangor\n\n(GST ID No: 000504664064) McDonald's BHP Taman Melawati(#328) Tel No. 03-4162-2318 TAX INVOICE",
+      "page": null
+    },
+    {
+      "heading": "MFY Side 1",
+      "text": "| INV#003281900229170                   |       |\n|---------------------------------------|-------|\n| ORD #50 -REG #19- 18/01/2018 10:27:03 |       |\n| QTY ITEM                              | TOTAL |\n| 2ChicMcMuffin                         | 11.00 |\n| 1 M Porridge                          | 5.60  |\n| 1 BM 2HotCakes 1 L Coke               | 10.00 |\n| TakeOutTotal(incl GST)                | 26.60 |\n| Total Rounded                         | 26.60 |\n| Cash Tendered                         | 00.00 |\n| Change                                | 73.40 |\n| TOTAL INCLUDES 6%GST                  | 1.51  |\n\nWe'd love to hear your feedback!\n\nsit www.mcdfeedback.com.my OR Download My McD Feedback from Google Play/App Store",
+      "page": null
+    },
+    {
+      "heading": "share experience to your",
+      "text": "Thank You and Please Come Again. Customer Service Hotline e :03-2726-5600",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

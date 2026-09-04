@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_012",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_012.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-58064 Order Date: 2025-05-03 Requested Delivery: 2025-06-12\n\nBuyer: Ware Inc Vendor: Holmes, Peters and Mueller Ship To: 18780 Scott Ridge Apt. 478, Romerobury, UT 69079\n\n| Description             |   Qty |   Unit (USD) |   Amount (USD) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    15 |       128.99 |        1934.85 |\n| Industrial lubricant 5L |    22 |       153.65 |        3380.30 |\n| Circuit breaker 16A     |    13 |       193.94 |        2521.22 |\n\n## Subtotal 7836.37 Tax 1410.55\n\n## Total 9246.92\n\nAuthorised by Terri Green, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-58064 Order Date: 2025-05-03 Requested Delivery: 2025-06-12\n\nBuyer: Ware Inc Vendor: Holmes, Peters and Mueller Ship To: 18780 Scott Ridge Apt. 478, Romerobury, UT 69079\n\n| Description             |   Qty |   Unit (USD) |   Amount (USD) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    15 |       128.99 |        1934.85 |\n| Industrial lubricant 5L |    22 |       153.65 |        3380.30 |\n| Circuit breaker 16A     |    13 |       193.94 |        2521.22 |",
+      "page": null
+    },
+    {
+      "heading": "Total 9246.92",
+      "text": "Authorised by Terri Green, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

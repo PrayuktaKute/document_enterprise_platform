@@ -121,6 +121,9 @@ class DocExtractionCfg(BaseModel):
     strategy: str = "single_pass"          # single_pass | field_by_field
     max_output_tokens: int = 800
     few_shot: str | None = None
+    hint: str | None = None                # extra guidance appended to the system prompt
+    # field_by_field: list of {fields: [...], source: head|keywords, keywords: [...], max_chars: N}
+    field_groups: list[dict[str, Any]] = Field(default_factory=list)
 
     def few_shot_examples(self) -> list[dict[str, Any]]:
         if not self.few_shot:

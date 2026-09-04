@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_022",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_022.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Robert Miller Patient ID: MRN-118354 Report Date: 2025-11-23 Ordering Physician: Dr. Thornton Study / Modality: MRI Brain Body Site: Brain\n\n## FINDINGS\n\nNo acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. A few scattered T2/FLAIR hyperintense foci in the subcortical white matter.\n\n## IMPRESSION\n\nNonspecific white matter changes, likely microvascular.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Robert Miller Patient ID: MRN-118354 Report Date: 2025-11-23 Ordering Physician: Dr. Thornton Study / Modality: MRI Brain Body Site: Brain",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. A few scattered T2/FLAIR hyperintense foci in the subcortical white matter.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Nonspecific white matter changes, likely microvascular.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

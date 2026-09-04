@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_020",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_020.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Bobby Fisher Patient ID: MRN-808530 Report Date: 2026-03-27 Ordering Physician: Dr. Mcclure Study / Modality: MRI Brain Body Site: Brain\n\n## FINDINGS\n\nNo acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. Restricted diffusion in the left middle cerebral artery territory.\n\n## IMPRESSION\n\nAcute left MCA territory infarct.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Bobby Fisher Patient ID: MRN-808530 Report Date: 2026-03-27 Ordering Physician: Dr. Mcclure Study / Modality: MRI Brain Body Site: Brain",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast. Restricted diffusion in the left middle cerebral artery territory.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Acute left MCA territory infarct.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

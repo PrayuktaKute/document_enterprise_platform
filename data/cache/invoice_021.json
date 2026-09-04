@@ -1,0 +1,35 @@
+{
+  "doc_id": "invoice_021",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_021.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "<!-- image -->\n\n## TEOHR NAS H OKS\n\nNO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI\n\n(001451637-M)\n\nSELANGOR DARUL EHSAN\n\nTEL:03-3271 9872\n\nFAX:03-3271 9487\n\nGST No.:000689913856\n\n## SIMPLIFIED TAX INVOICE\n\n## CASH\n\n|                                 | Receipt No.: CS1801/26874 Date :   | Receipt No.: CS1801/26874 Date :   | Receipt No.: CS1801/26874 Date :   | 18/01/2018                      |\n|---------------------------------|------------------------------------|------------------------------------|------------------------------------|---------------------------------|\n| ITEM                            | QTY                                | U/P                                | DISC%                              | AMOOUUNT (RM)                   |\n| 9557068000035                   | 1                                  | 3.50                               | 5.69                               | 3.30 *                          |\n| - JIANYU STELL RULER 30CM THICK | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK |\n| 1                               | 1                                  | 1.30                               | 0.00                               | 1.30*                           |\n| -LAMINATE FILM                  | -LAMINATE FILM                     | -LAMINATE FILM                     | -LAMINATE FILM                     | -LAMINATE FILM                  |\n| Total Qty. :                    | 2                                  |                                    |                                    | 4.60                            |\n| SUB-TOTAL (EX)                  | SUB-TOTAL (EX)                     |                                    |                                    | 4.60                            |\n| TOTAL TAX                       | TOTAL TAX                          |                                    |                                    | 0.28                            |\n| ROUNDING                        | ROUNDING                           |                                    |                                    | 0.02                            |\n| TOTAL                           | TOTAL                              |                                    |                                    | 4.90                            |\n| CASH                            | CASH                               |                                    |                                    | 4.90                            |\n| CHANGE                          | CHANGE                             |                                    |                                    | 0.00                            |\n\n## GST SUMMARY\n\nTAX CODE\n\n%\n\nSR\n\n6.00\n\nAMOUNT\n\nTAX\n\n(RM)\n\n(RM)\n\n4.60\n\n0.28\n\n## TOTAL:\n\n4.60\n\n0.28\n\nNote: (*) Indicated The Item Sold Has Been Related To GST (Goods &amp; Services Tax).",
+  "sections": [
+    {
+      "heading": null,
+      "text": "<!-- image -->",
+      "page": null
+    },
+    {
+      "heading": "TEOHR NAS H OKS",
+      "text": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI\n\n(001451637-M)\n\nSELANGOR DARUL EHSAN\n\nTEL:03-3271 9872\n\nFAX:03-3271 9487\n\nGST No.:000689913856",
+      "page": null
+    },
+    {
+      "heading": "CASH",
+      "text": "|                                 | Receipt No.: CS1801/26874 Date :   | Receipt No.: CS1801/26874 Date :   | Receipt No.: CS1801/26874 Date :   | 18/01/2018                      |\n|---------------------------------|------------------------------------|------------------------------------|------------------------------------|---------------------------------|\n| ITEM                            | QTY                                | U/P                                | DISC%                              | AMOOUUNT (RM)                   |\n| 9557068000035                   | 1                                  | 3.50                               | 5.69                               | 3.30 *                          |\n| - JIANYU STELL RULER 30CM THICK | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK    | - JIANYU STELL RULER 30CM THICK |\n| 1                               | 1                                  | 1.30                               | 0.00                               | 1.30*                           |\n| -LAMINATE FILM                  | -LAMINATE FILM                     | -LAMINATE FILM                     | -LAMINATE FILM                     | -LAMINATE FILM                  |\n| Total Qty. :                    | 2                                  |                                    |                                    | 4.60                            |\n| SUB-TOTAL (EX)                  | SUB-TOTAL (EX)                     |                                    |                                    | 4.60                            |\n| TOTAL TAX                       | TOTAL TAX                          |                                    |                                    | 0.28                            |\n| ROUNDING                        | ROUNDING                           |                                    |                                    | 0.02                            |\n| TOTAL                           | TOTAL                              |                                    |                                    | 4.90                            |\n| CASH                            | CASH                               |                                    |                                    | 4.90                            |\n| CHANGE                          | CHANGE                             |                                    |                                    | 0.00                            |",
+      "page": null
+    },
+    {
+      "heading": "GST SUMMARY",
+      "text": "TAX CODE\n\n%\n\nSR\n\n6.00\n\nAMOUNT\n\nTAX\n\n(RM)\n\n(RM)\n\n4.60\n\n0.28",
+      "page": null
+    },
+    {
+      "heading": "TOTAL:",
+      "text": "4.60\n\n0.28\n\nNote: (*) Indicated The Item Sold Has Been Related To GST (Goods &amp; Services Tax).",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

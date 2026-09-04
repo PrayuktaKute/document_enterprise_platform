@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_023",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_023.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Joshua Griffin Patient ID: MRN-505639 Report Date: 2025-09-02 Ordering Physician: Dr. Morris Study / Modality: Lab CBC panel Body Site: Whole blood\n\n## FINDINGS\n\nHaemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal. Haemoglobin 9.1 g/dL with low MCV, consistent with microcytic anaemia.\n\n## IMPRESSION\n\nMicrocytic anaemia, likely iron deficiency.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Joshua Griffin Patient ID: MRN-505639 Report Date: 2025-09-02 Ordering Physician: Dr. Morris Study / Modality: Lab CBC panel Body Site: Whole blood",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "Haemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal. Haemoglobin 9.1 g/dL with low MCV, consistent with microcytic anaemia.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Microcytic anaemia, likely iron deficiency.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

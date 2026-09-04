@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_004",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_004.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-54833 Order Date: 2025-05-16 Requested Delivery: 2025-06-02\n\nBuyer: Jackson Group Vendor: Myers-Savage Ship To: 8465 Rosario Drive, East Edwardbury, AL 64066\n\n| Description         |   Qty |   Unit (USD) |   Amount (USD) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    27 |        11.81 |         318.87 |\n| Packing tape roll   |     5 |       184.09 |         920.45 |\n| Circuit breaker 16A |    21 |        83.28 |        1748.88 |\n\nSubtotal\n\n2988.20\n\nTax\n\n239.06\n\nTotal\n\n3227.26\n\nAuthorised by Catherine Campbell, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-54833 Order Date: 2025-05-16 Requested Delivery: 2025-06-02\n\nBuyer: Jackson Group Vendor: Myers-Savage Ship To: 8465 Rosario Drive, East Edwardbury, AL 64066\n\n| Description         |   Qty |   Unit (USD) |   Amount (USD) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    27 |        11.81 |         318.87 |\n| Packing tape roll   |     5 |       184.09 |         920.45 |\n| Circuit breaker 16A |    21 |        83.28 |        1748.88 |\n\nSubtotal\n\n2988.20\n\nTax\n\n239.06\n\nTotal\n\n3227.26\n\nAuthorised by Catherine Campbell, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

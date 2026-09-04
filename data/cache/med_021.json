@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_021",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_021.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Olivia James Patient ID: MRN-904435 Report Date: 2025-05-16 Ordering Physician: Dr. Mack Study / Modality: Knee X-ray Body Site: Left knee\n\n## FINDINGS\n\nNo fracture or dislocation. Joint spaces are preserved. No significant effusion. Medial joint space narrowing with marginal osteophytes.\n\n## IMPRESSION\n\nModerate medial compartment osteoarthritis.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Olivia James Patient ID: MRN-904435 Report Date: 2025-05-16 Ordering Physician: Dr. Mack Study / Modality: Knee X-ray Body Site: Left knee",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No fracture or dislocation. Joint spaces are preserved. No significant effusion. Medial joint space narrowing with marginal osteophytes.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Moderate medial compartment osteoarthritis.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

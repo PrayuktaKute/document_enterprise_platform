@@ -5,9 +5,21 @@ classifier_hint: >
   clauses covering obligations, term, termination, governing law and signatures.
 
 extraction:
-  strategy: field_by_field        # long doc: extract fields in small groups with retrieval-guided context
-  max_output_tokens: 500
+  strategy: field_by_field        # long doc: extract fields in small groups with focused context
+  max_output_tokens: 400
   few_shot: config/examples/contract.json
+  field_groups:
+    - fields: [document_name, contract_type, parties, agreement_date, effective_date]
+      source: head
+      max_chars: 6000
+    - fields: [expiration_or_term, governing_law, renewal_term]
+      source: keywords
+      window: 1000
+      keywords: ["governing law", "governed by", "laws of", "law of the state",
+                 "jurisdiction", "renew", "renewal", "extend", "term of this agreement",
+                 "initial term", "expire", "expiration", "termination", "shall terminate",
+                 "shall commence", "effective date"]
+      max_chars: 7000
 
 validation:
   critical_rules:

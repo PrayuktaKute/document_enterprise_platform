@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_024",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_024.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-98601 Order Date: 2025-06-09 Requested Delivery: 2025-07-13\n\nBuyer: Warren, Cisneros and Anderson Vendor: Perkins and Sons\n\nShip To:\n\n53776 Erik Overpass Suite 642, Coopermouth, DE 43928\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Hydraulic seal kit      |    10 |       129.94 |        1299.40 |\n| Industrial lubricant 5L |    37 |       119.97 |        4438.89 |\n| Ethernet cable Cat6     |     6 |        68.78 |         412.68 |\n| Pallet wrap film        |    12 |       103.51 |        1242.12 |\n\n## Subtotal 7393.09 Tax 0.00 Total 7393.09\n\nAuthorised by Paul Combs, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-98601 Order Date: 2025-06-09 Requested Delivery: 2025-07-13\n\nBuyer: Warren, Cisneros and Anderson Vendor: Perkins and Sons\n\nShip To:\n\n53776 Erik Overpass Suite 642, Coopermouth, DE 43928\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Hydraulic seal kit      |    10 |       129.94 |        1299.40 |\n| Industrial lubricant 5L |    37 |       119.97 |        4438.89 |\n| Ethernet cable Cat6     |     6 |        68.78 |         412.68 |\n| Pallet wrap film        |    12 |       103.51 |        1242.12 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 7393.09 Tax 0.00 Total 7393.09",
+      "text": "Authorised by Paul Combs, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

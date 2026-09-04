@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_019",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_019.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-79563 Order Date: 2025-04-07 Requested Delivery: 2025-05-17\n\nBuyer: Lopez-Adams Vendor: Schwartz Inc Ship To: 8530 Robinson Falls Apt. 561, Ramirezborough, IA 66657\n\n| Description          |   Qty |   Unit (USD) |   Amount (USD) |\n|----------------------|-------|--------------|----------------|\n| Copper wire 2.5mm    |    36 |        16.00 |         576.00 |\n| Safety gloves (pair) |    18 |        12.52 |         225.36 |\n| Copper wire 2.5mm    |    33 |       109.89 |        3626.37 |\n| Steel bolts M8       |     5 |       107.77 |         538.85 |\n| Circuit breaker 16A  |    33 |       146.46 |        4833.18 |\n\n## Subtotal 9799.76 Tax 489.99 Total 10289.75\n\nAuthorised by Ann Montoya, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-79563 Order Date: 2025-04-07 Requested Delivery: 2025-05-17\n\nBuyer: Lopez-Adams Vendor: Schwartz Inc Ship To: 8530 Robinson Falls Apt. 561, Ramirezborough, IA 66657\n\n| Description          |   Qty |   Unit (USD) |   Amount (USD) |\n|----------------------|-------|--------------|----------------|\n| Copper wire 2.5mm    |    36 |        16.00 |         576.00 |\n| Safety gloves (pair) |    18 |        12.52 |         225.36 |\n| Copper wire 2.5mm    |    33 |       109.89 |        3626.37 |\n| Steel bolts M8       |     5 |       107.77 |         538.85 |\n| Circuit breaker 16A  |    33 |       146.46 |        4833.18 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 9799.76 Tax 489.99 Total 10289.75",
+      "text": "Authorised by Ann Montoya, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

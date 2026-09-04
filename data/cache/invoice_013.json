@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_013",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_013.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## RESTORAN HASSANBISTRO\n\nNO I L  F-O U 13/Q SETI AI AM 40170 SHAI IAM SELANGOR\n\n## TAX INVOICE\n\n| TERMINAL : C1 CASHIER BILL NO DATE TOKEN TABLE                         | ：HASSAN ：C1-0170778 :12/28/2017 10:17:32 PM :CT1 :CT1   |\n|------------------------------------------------------------------------|-----------------------------------------------------------|\n| Prt                                                                    | Qty U.Price GST Total                                     |\n| MAKANAN                                                                | 一 15.00 0 15.00 ZR                                       |\n| Total Itens Total Qty                                                  | 二 1.00 1.00 二                                           |\n| Sub Total Discount Total Excl.63 GST GST 68 Total Incl.68 GST Rounding | RM 15.00 RM 0.00 RM RM RM RM                              |\n| CASH RM CHANGE RM                                                      | 15.00 00.0 15.00 0.00 15.00 0.00                          |\n\nThank You.Come Again 2017-12-28 22:17PM",
+  "sections": [
+    {
+      "heading": "RESTORAN HASSANBISTRO",
+      "text": "NO I L  F-O U 13/Q SETI AI AM 40170 SHAI IAM SELANGOR",
+      "page": null
+    },
+    {
+      "heading": "TAX INVOICE",
+      "text": "| TERMINAL : C1 CASHIER BILL NO DATE TOKEN TABLE                         | ：HASSAN ：C1-0170778 :12/28/2017 10:17:32 PM :CT1 :CT1   |\n|------------------------------------------------------------------------|-----------------------------------------------------------|\n| Prt                                                                    | Qty U.Price GST Total                                     |\n| MAKANAN                                                                | 一 15.00 0 15.00 ZR                                       |\n| Total Itens Total Qty                                                  | 二 1.00 1.00 二                                           |\n| Sub Total Discount Total Excl.63 GST GST 68 Total Incl.68 GST Rounding | RM 15.00 RM 0.00 RM RM RM RM                              |\n| CASH RM CHANGE RM                                                      | 15.00 00.0 15.00 0.00 15.00 0.00                          |\n\nThank You.Come Again 2017-12-28 22:17PM",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

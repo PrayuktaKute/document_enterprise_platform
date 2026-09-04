@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_008",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_008.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-33900 Order Date: 2025-12-24 Requested Delivery: 2026-02-06\n\nBuyer: Pratt, Gonzalez and Vasquez Vendor: Shaffer Group Ship To: 7439 West Stream, Stephaniestad, CO 29397\n\n| Description             |   Qty |   Unit (EUR) |   Amount (EUR) |\n|-------------------------|-------|--------------|----------------|\n| LED panel 40W           |     1 |        37.10 |          37.10 |\n| Industrial lubricant 5L |    24 |       147.33 |        3535.92 |\n| Ethernet cable Cat6     |     9 |       166.49 |        1498.41 |\n| Industrial lubricant 5L |    40 |       158.05 |        6322.00 |\n\n## Subtotal 11393.43 Tax 0.00\n\n## Total 11393.43\n\nAuthorised by John Morgan, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-33900 Order Date: 2025-12-24 Requested Delivery: 2026-02-06\n\nBuyer: Pratt, Gonzalez and Vasquez Vendor: Shaffer Group Ship To: 7439 West Stream, Stephaniestad, CO 29397\n\n| Description             |   Qty |   Unit (EUR) |   Amount (EUR) |\n|-------------------------|-------|--------------|----------------|\n| LED panel 40W           |     1 |        37.10 |          37.10 |\n| Industrial lubricant 5L |    24 |       147.33 |        3535.92 |\n| Ethernet cable Cat6     |     9 |       166.49 |        1498.41 |\n| Industrial lubricant 5L |    40 |       158.05 |        6322.00 |",
+      "page": null
+    },
+    {
+      "heading": "Total 11393.43",
+      "text": "Authorised by John Morgan, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

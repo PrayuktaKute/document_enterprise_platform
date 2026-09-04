@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_005",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_005.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-22267 Order Date: 2025-03-24 Requested Delivery: 2025-04-04\n\nBuyer: Knight, Benton and Vaughn Vendor: Barnes LLC Ship To: 8666 Garcia Roads, Brownland, IL 58254\n\n| Description         |   Qty |   Unit (INR) |   Amount (INR) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |     5 |        16.91 |          84.55 |\n| Pallet wrap film    |    20 |       156.19 |        3123.80 |\n| Packing tape roll   |    29 |        70.09 |        2032.61 |\n| Hydraulic seal kit  |    23 |         7.86 |         180.78 |\n\n## Subtotal 5421.74 Tax 975.91\n\n## Total 6397.65\n\nAuthorised by Gerald Williams, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-22267 Order Date: 2025-03-24 Requested Delivery: 2025-04-04\n\nBuyer: Knight, Benton and Vaughn Vendor: Barnes LLC Ship To: 8666 Garcia Roads, Brownland, IL 58254\n\n| Description         |   Qty |   Unit (INR) |   Amount (INR) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |     5 |        16.91 |          84.55 |\n| Pallet wrap film    |    20 |       156.19 |        3123.80 |\n| Packing tape roll   |    29 |        70.09 |        2032.61 |\n| Hydraulic seal kit  |    23 |         7.86 |         180.78 |",
+      "page": null
+    },
+    {
+      "heading": "Total 6397.65",
+      "text": "Authorised by Gerald Williams, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

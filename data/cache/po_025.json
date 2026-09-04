@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_025",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_025.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-44151 Order Date: 2025-10-07 Requested Delivery: 2025-10-19\n\nBuyer:\n\nSmith, Singh and King\n\nVendor:\n\nCase and Sons\n\nShip To:\n\n156 Dickerson Harbors Apt. 042, West Ryan, MD 25384\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| Circuit breaker 16A |    15 |        18.32 |         274.80 |\n| Copper wire 2.5mm   |    30 |         5.24 |         157.20 |\n\nSubtotal\n\nTax\n\n432.00\n\n77.76\n\nTotal\n\n509.76\n\nAuthorised by Rachel Patterson, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-44151 Order Date: 2025-10-07 Requested Delivery: 2025-10-19\n\nBuyer:\n\nSmith, Singh and King\n\nVendor:\n\nCase and Sons\n\nShip To:\n\n156 Dickerson Harbors Apt. 042, West Ryan, MD 25384\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| Circuit breaker 16A |    15 |        18.32 |         274.80 |\n| Copper wire 2.5mm   |    30 |         5.24 |         157.20 |\n\nSubtotal\n\nTax\n\n432.00\n\n77.76\n\nTotal\n\n509.76\n\nAuthorised by Rachel Patterson, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

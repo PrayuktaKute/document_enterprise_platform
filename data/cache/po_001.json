@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_001",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_001.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-82226 Order Date: 2026-03-30 Requested Delivery: 2026-04-11\n\nBuyer: Roberts and Sons Vendor: Sanders, Cherry and Williams Ship To: 219 Nathan Plaza Apt. 909, South Erin, NE 41676\n\n| Description          |   Qty |   Unit (INR) |   Amount (INR) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    37 |        31.90 |        1180.30 |\n| Safety gloves (pair) |    38 |       227.58 |        8648.04 |\n| Circuit breaker 16A  |    38 |        96.71 |        3674.98 |\n| Safety gloves (pair) |     3 |       134.71 |         404.13 |\n| HDPE pipe 32mm       |    19 |       102.05 |        1938.95 |\n\n## Subtotal 15846.40 Tax 0.00\n\n## Total 15846.40\n\nAuthorised by Thomas Ward, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-82226 Order Date: 2026-03-30 Requested Delivery: 2026-04-11\n\nBuyer: Roberts and Sons Vendor: Sanders, Cherry and Williams Ship To: 219 Nathan Plaza Apt. 909, South Erin, NE 41676\n\n| Description          |   Qty |   Unit (INR) |   Amount (INR) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    37 |        31.90 |        1180.30 |\n| Safety gloves (pair) |    38 |       227.58 |        8648.04 |\n| Circuit breaker 16A  |    38 |        96.71 |        3674.98 |\n| Safety gloves (pair) |     3 |       134.71 |         404.13 |\n| HDPE pipe 32mm       |    19 |       102.05 |        1938.95 |",
+      "page": null
+    },
+    {
+      "heading": "Total 15846.40",
+      "text": "Authorised by Thomas Ward, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

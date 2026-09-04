@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_014",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_014.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-23389 Order Date: 2026-01-20 Requested Delivery: 2026-02-10\n\nBuyer: Mccarthy PLC Vendor: Fritz and Sons Ship To: 55150 Spencer Mill Apt. 658, Williamland, DE 30458\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    13 |        82.71 |        1075.23 |\n| Aluminium sheet 2mm |    40 |       236.50 |        9460.00 |\n| Circuit breaker 16A |     1 |       116.37 |         116.37 |\n\nSubtotal\n\nTax\n\n10651.60\n\n852.13\n\nTotal\n\n11503.73\n\nAuthorised by Ashley Baker, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-23389 Order Date: 2026-01-20 Requested Delivery: 2026-02-10\n\nBuyer: Mccarthy PLC Vendor: Fritz and Sons Ship To: 55150 Spencer Mill Apt. 658, Williamland, DE 30458\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    13 |        82.71 |        1075.23 |\n| Aluminium sheet 2mm |    40 |       236.50 |        9460.00 |\n| Circuit breaker 16A |     1 |       116.37 |         116.37 |\n\nSubtotal\n\nTax\n\n10651.60\n\n852.13\n\nTotal\n\n11503.73\n\nAuthorised by Ashley Baker, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

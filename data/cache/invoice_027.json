@@ -1,0 +1,15 @@
+{
+  "doc_id": "invoice_027",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_027.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "<!-- image -->\n\nMR. D.I.Y(M) SDN BHD (CO Reg :860671-D) 1.OT 1851-A &amp; 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG. 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (TESCO MUTIARA DAMANSARA) TAX INVOICE\n\n| SOURING PAD 1018-4 48 WA03= 24/240 9555221301081 4 X=2.30=11.20 SC1SSOR G/FISH AD51 - 24/360 9064422 TRAILING SKT 5GN+SP 3X1.25MM CABLE 2 *S WA27-20 9553114461966 Item(s) : 3 Total Incl, GST@6% CAVH CHANGE GST Summary Amt(RM)Tax(RM) GST S@6%   |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n\n14-03-18 21:49 SH03 ZJ20 T1 R000418193 OPERATOR TMDC - SAH BIJAY KUMAR\n\nEXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND",
+  "sections": [
+    {
+      "heading": null,
+      "text": "<!-- image -->\n\nMR. D.I.Y(M) SDN BHD (CO Reg :860671-D) 1.OT 1851-A &amp; 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG. 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (TESCO MUTIARA DAMANSARA) TAX INVOICE\n\n| SOURING PAD 1018-4 48 WA03= 24/240 9555221301081 4 X=2.30=11.20 SC1SSOR G/FISH AD51 - 24/360 9064422 TRAILING SKT 5GN+SP 3X1.25MM CABLE 2 *S WA27-20 9553114461966 Item(s) : 3 Total Incl, GST@6% CAVH CHANGE GST Summary Amt(RM)Tax(RM) GST S@6%   |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n\n14-03-18 21:49 SH03 ZJ20 T1 R000418193 OPERATOR TMDC - SAH BIJAY KUMAR\n\nEXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

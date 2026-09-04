@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_023",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_023.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-70118 Order Date: 2026-03-06 Requested Delivery: 2026-04-17\n\nBuyer: Adams-Powers Vendor: Smith Inc Ship To: 8477 Wang Plaza Apt. 417, West Stephenhaven, NV 35714\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Pallet wrap film        |     2 |        93.78 |         187.56 |\n| Industrial lubricant 5L |    40 |        72.67 |        2906.80 |\n| Copper wire 2.5mm       |     8 |       236.46 |        1891.68 |\n| Safety gloves (pair)    |     7 |        22.46 |         157.22 |\n| LED panel 40W           |     3 |       217.65 |         652.95 |\n\n## Subtotal 5796.21 Tax 289.81\n\n## Total 6086.02\n\nAuthorised by Thomas Arias, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-70118 Order Date: 2026-03-06 Requested Delivery: 2026-04-17\n\nBuyer: Adams-Powers Vendor: Smith Inc Ship To: 8477 Wang Plaza Apt. 417, West Stephenhaven, NV 35714\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Pallet wrap film        |     2 |        93.78 |         187.56 |\n| Industrial lubricant 5L |    40 |        72.67 |        2906.80 |\n| Copper wire 2.5mm       |     8 |       236.46 |        1891.68 |\n| Safety gloves (pair)    |     7 |        22.46 |         157.22 |\n| LED panel 40W           |     3 |       217.65 |         652.95 |",
+      "page": null
+    },
+    {
+      "heading": "Total 6086.02",
+      "text": "Authorised by Thomas Arias, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

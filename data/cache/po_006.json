@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_006",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_006.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-74709 Order Date: 2025-08-02 Requested Delivery: 2025-08-16\n\nBuyer: Rush PLC Vendor: Knight PLC Ship To:\n\n624 Guzman Mountains, North Melindamouth, NJ 63918\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    19 |        33.22 |         631.18 |\n| Safety gloves (pair) |    26 |        95.35 |        2479.10 |\n\n## Subtotal 3110.28 Tax 559.85 Total 3670.13\n\nAuthorised by Charles Brady, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-74709 Order Date: 2025-08-02 Requested Delivery: 2025-08-16\n\nBuyer: Rush PLC Vendor: Knight PLC Ship To:\n\n624 Guzman Mountains, North Melindamouth, NJ 63918\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    19 |        33.22 |         631.18 |\n| Safety gloves (pair) |    26 |        95.35 |        2479.10 |",
+      "page": null
+    },
+    {
+      "heading": "Subtotal 3110.28 Tax 559.85 Total 3670.13",
+      "text": "Authorised by Charles Brady, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

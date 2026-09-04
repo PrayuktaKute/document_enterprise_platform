@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_014",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_014.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Tammy Brown Patient ID: MRN-791325 Report Date: 2025-10-18 Ordering Physician: Dr. Johnson Study / Modality: Lab CBC panel Body Site: Whole blood\n\n## FINDINGS\n\nHaemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal. White cell count 14.8 x10^9/L with neutrophilia.\n\n## IMPRESSION\n\nLeukocytosis with neutrophil predominance.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Tammy Brown Patient ID: MRN-791325 Report Date: 2025-10-18 Ordering Physician: Dr. Johnson Study / Modality: Lab CBC panel Body Site: Whole blood",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "Haemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal. White cell count 14.8 x10^9/L with neutrophilia.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Leukocytosis with neutrophil predominance.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_009",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_009.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: James Smith Patient ID: MRN-246074 Report Date: 2025-05-15 Ordering Physician: Dr. Carter Study / Modality: Lab CBC panel Body Site: Whole blood\n\n## FINDINGS\n\nHaemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal.\n\n## IMPRESSION\n\nNo acute abnormality of the whole blood.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: James Smith Patient ID: MRN-246074 Report Date: 2025-05-15 Ordering Physician: Dr. Carter Study / Modality: Lab CBC panel Body Site: Whole blood",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "Haemoglobin, white cell count, and platelet count are within reference ranges. Red cell indices are normal.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "No acute abnormality of the whole blood.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

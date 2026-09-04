@@ -1,0 +1,15 @@
+{
+  "doc_id": "invoice_005",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_005.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## tan chay yee\n\nABC HO TRADING No.2&amp;4, JALAN HARMONI 3/2, TAMAN DESA HARMONI. 81100 JOHOR BAHRU.JOHOR 07-355 2616\n\nCash Bill\n\n01-143008\n\nDate\n\n09/01/2019 8:01:11 PM\n\nCashier\n\n01\n\nDescription Qty\n\nPlastic Price Amount RM\n\nRM\n\n2 15.50 31.00\n\nTotal:\n\nTotal Amount:\n\nCash Received\n\n3100\n\n101.00\n\nChange :\n\n31.00\n\n70.00\n\n*Goods Sold are non-refundablef ***Thank You** ***please Come Again***\n\n<!-- image -->",
+  "sections": [
+    {
+      "heading": "tan chay yee",
+      "text": "ABC HO TRADING No.2&amp;4, JALAN HARMONI 3/2, TAMAN DESA HARMONI. 81100 JOHOR BAHRU.JOHOR 07-355 2616\n\nCash Bill\n\n01-143008\n\nDate\n\n09/01/2019 8:01:11 PM\n\nCashier\n\n01\n\nDescription Qty\n\nPlastic Price Amount RM\n\nRM\n\n2 15.50 31.00\n\nTotal:\n\nTotal Amount:\n\nCash Received\n\n3100\n\n101.00\n\nChange :\n\n31.00\n\n70.00\n\n*Goods Sold are non-refundablef ***Thank You** ***please Come Again***\n\n<!-- image -->",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

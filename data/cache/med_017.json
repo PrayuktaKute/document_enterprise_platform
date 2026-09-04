@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_017",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_017.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Christopher Lee Patient ID: MRN-904226 Report Date: 2025-08-08 Ordering Physician: Dr. Delgado Study / Modality: Chest X-ray Body Site: Chest\n\n## FINDINGS\n\nThe lungs are clear without focal consolidation, effusion, or pneumothorax. Cardiomediastinal silhouette is within normal limits. Osseous structures are intact. Increased interstitial markings with cephalitisation of pulmonary vasculature.\n\n## IMPRESSION\n\nFindings suggestive of mild pulmonary oedema.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Christopher Lee Patient ID: MRN-904226 Report Date: 2025-08-08 Ordering Physician: Dr. Delgado Study / Modality: Chest X-ray Body Site: Chest",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "The lungs are clear without focal consolidation, effusion, or pneumothorax. Cardiomediastinal silhouette is within normal limits. Osseous structures are intact. Increased interstitial markings with cephalitisation of pulmonary vasculature.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Findings suggestive of mild pulmonary oedema.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

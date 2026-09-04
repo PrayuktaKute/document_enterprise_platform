@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_025",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_025.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Jennifer Bennett Patient ID: MRN-732674 Report Date: 2025-12-27 Ordering Physician: Dr. Marshall Study / Modality: MRI Brain Body Site: Brain\n\n## FINDINGS\n\nNo acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast.\n\n## IMPRESSION\n\nNo acute abnormality of the brain.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Jennifer Bennett Patient ID: MRN-732674 Report Date: 2025-12-27 Ordering Physician: Dr. Marshall Study / Modality: MRI Brain Body Site: Brain",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "No acute infarct, haemorrhage, or mass effect. Ventricles and sulci are age-appropriate. No abnormal enhancement after contrast.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "No acute abnormality of the brain.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_000",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_000.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-19494 Order Date: 2025-11-29 Requested Delivery: 2025-12-09\n\n## Buyer: Jones PLC Vendor: Gould-Foster\n\nShip To:\n\n301 Barnes Garden, New Rogershire, DE 29761\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    38 |        16.27 |         618.26 |\n| Industrial lubricant 5L |    14 |        11.41 |         159.74 |\n\nSubtotal\n\nTax\n\n778.00\n\n140.04\n\nTotal\n\n918.04\n\nAuthorised by Lauren Brown, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-19494 Order Date: 2025-11-29 Requested Delivery: 2025-12-09",
+      "page": null
+    },
+    {
+      "heading": "Buyer: Jones PLC Vendor: Gould-Foster",
+      "text": "Ship To:\n\n301 Barnes Garden, New Rogershire, DE 29761\n\n| Description             |   Qty |   Unit (GBP) |   Amount (GBP) |\n|-------------------------|-------|--------------|----------------|\n| Ethernet cable Cat6     |    38 |        16.27 |         618.26 |\n| Industrial lubricant 5L |    14 |        11.41 |         159.74 |\n\nSubtotal\n\nTax\n\n778.00\n\n140.04\n\nTotal\n\n918.04\n\nAuthorised by Lauren Brown, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

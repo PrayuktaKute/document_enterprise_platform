@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_023",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_023.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## TEO HENG STATIONERY &amp; BOOKS\n\n(001451637-M)\n\nNO. 53, JALAN BESAR, 456OO BATANG BERJUNTAI\n\nSELANGOR DARUL EHSAN TEL:03-3271 9872 FAX:03-3271 9481 GST No.:000689913856\n\n## SIMAN L IIICE\n\n## CASH\n\nReceipt No.: CS1801/26821\n\nDate :\n\n17/01/2018\n\nITEM\n\nQTY\n\nU/P\n\nDISC%\n\n9555017370017\n\n1\n\n28.00\n\nAMOUNT\n\n(RM)\n\n7.14\n\n26.00*\n\n- LION FILE 220*307 LAMINATING FILM\n\nTotal Qty. :\n\n1\n\nSUB-TOTAL (EX)\n\nTOTAL TAX\n\nROUNDING\n\nTOTAL\n\nCASH\n\nCHANGE\n\n26.00\n\n26.00\n\n1.56\n\n-0.01\n\n<!-- image -->\n\n<!-- image -->\n\n|          | GST SUMMARY   |             |          |\n|----------|---------------|-------------|----------|\n| TAX CODE | %             | AMOUNT (RM) | TAX (RM) |\n| SR       | 6.00          | 26.00       | 1.56     |\n| TOTAL :  |               | 26.00       | 1.56     |\n\nNote: (*) Indicated The Item Sold Has Been Related To GST (Goods &amp; Services Tax).\n\nGOODS SOLD ARE NOT RETURNABLE, THANK YOU.",
+  "sections": [
+    {
+      "heading": "TEO HENG STATIONERY &amp; BOOKS",
+      "text": "(001451637-M)\n\nNO. 53, JALAN BESAR, 456OO BATANG BERJUNTAI\n\nSELANGOR DARUL EHSAN TEL:03-3271 9872 FAX:03-3271 9481 GST No.:000689913856",
+      "page": null
+    },
+    {
+      "heading": "CASH",
+      "text": "Receipt No.: CS1801/26821\n\nDate :\n\n17/01/2018\n\nITEM\n\nQTY\n\nU/P\n\nDISC%\n\n9555017370017\n\n1\n\n28.00\n\nAMOUNT\n\n(RM)\n\n7.14\n\n26.00*\n\n- LION FILE 220*307 LAMINATING FILM\n\nTotal Qty. :\n\n1\n\nSUB-TOTAL (EX)\n\nTOTAL TAX\n\nROUNDING\n\nTOTAL\n\nCASH\n\nCHANGE\n\n26.00\n\n26.00\n\n1.56\n\n-0.01\n\n<!-- image -->\n\n<!-- image -->\n\n|          | GST SUMMARY   |             |          |\n|----------|---------------|-------------|----------|\n| TAX CODE | %             | AMOUNT (RM) | TAX (RM) |\n| SR       | 6.00          | 26.00       | 1.56     |\n| TOTAL :  |               | 26.00       | 1.56     |\n\nNote: (*) Indicated The Item Sold Has Been Related To GST (Goods &amp; Services Tax).\n\nGOODS SOLD ARE NOT RETURNABLE, THANK YOU.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_013",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_013.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-56604 Order Date: 2025-09-02 Requested Delivery: 2025-10-10\n\nBuyer:\n\nMartinez-Ramos\n\nVendor:\n\nOrozco, Harris and West\n\nShip To:\n\n1341 Sheila Row, Douglasberg, NH 29282\n\n| Description          |   Qty |   Unit (EUR) |   Amount (EUR) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    18 |       114.66 |        2063.88 |\n| Safety gloves (pair) |    39 |       229.67 |        8957.13 |\n\nSubtotal\n\nTax\n\n11021.01\n\n1983.78\n\nTotal\n\n13004.79\n\nAuthorised by Anna Dyer, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-56604 Order Date: 2025-09-02 Requested Delivery: 2025-10-10\n\nBuyer:\n\nMartinez-Ramos\n\nVendor:\n\nOrozco, Harris and West\n\nShip To:\n\n1341 Sheila Row, Douglasberg, NH 29282\n\n| Description          |   Qty |   Unit (EUR) |   Amount (EUR) |\n|----------------------|-------|--------------|----------------|\n| Steel bolts M8       |    18 |       114.66 |        2063.88 |\n| Safety gloves (pair) |    39 |       229.67 |        8957.13 |\n\nSubtotal\n\nTax\n\n11021.01\n\n1983.78\n\nTotal\n\n13004.79\n\nAuthorised by Anna Dyer, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

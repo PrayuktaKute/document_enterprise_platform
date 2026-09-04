@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_010",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_010.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-37256 Order Date: 2025-10-12 Requested Delivery: 2025-10-23\n\nBuyer: Drake-Thomas Vendor: Johnson PLC Ship To: 528 Andrew Union Apt. 826, Port Morgan, AK 33509\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| HDPE pipe 32mm      |    17 |       229.42 |        3900.14 |\n| Circuit breaker 16A |    24 |       115.11 |        2762.64 |\n| Copper wire 2.5mm   |    32 |       238.36 |        7627.52 |\n| Aluminium sheet 2mm |    31 |       117.41 |        3639.71 |\n| Copper wire 2.5mm   |    10 |        26.77 |         267.70 |\n\n## Subtotal 18197.71 Tax 1455.82\n\n## Total 19653.53\n\nAuthorised by Jonathan Gallagher, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-37256 Order Date: 2025-10-12 Requested Delivery: 2025-10-23\n\nBuyer: Drake-Thomas Vendor: Johnson PLC Ship To: 528 Andrew Union Apt. 826, Port Morgan, AK 33509\n\n| Description         |   Qty |   Unit (GBP) |   Amount (GBP) |\n|---------------------|-------|--------------|----------------|\n| HDPE pipe 32mm      |    17 |       229.42 |        3900.14 |\n| Circuit breaker 16A |    24 |       115.11 |        2762.64 |\n| Copper wire 2.5mm   |    32 |       238.36 |        7627.52 |\n| Aluminium sheet 2mm |    31 |       117.41 |        3639.71 |\n| Copper wire 2.5mm   |    10 |        26.77 |         267.70 |",
+      "page": null
+    },
+    {
+      "heading": "Total 19653.53",
+      "text": "Authorised by Jonathan Gallagher, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_016",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_016.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "LIGHTROOM GALLERY SDN BHD No: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA ROC No.: (1072825-A) GST No.: 000584089600\n\nTel:03-3362 4395 Fax:03-3362 4395\n\n## TAX INVOICE\n\nStation: CASHIER\n\nBill Date : 20/12/2017\n\nBill No: LCS03908\n\nCas r: ANGELA\n\nCover : 1\n\nBil1 Start: 20/12/2017 07:10:35 PM\n\nCode\n\nAddress\n\nName\n\nGST No.\n\n：300-C0001\n\n: CASH\n\n| CH50514 T5 JOINT 2PIN 2PCS *RM 2.83 UNI（               | SR 0.17)=RM    |\n|---------------------------------------------------------|----------------|\n| YT51874 YE30 BK 7W WW LED TRACK LIGHT * RM 33.02 UNI （ | 2.83 SR        |\n|                                                         | 3.96)=RM 66.04 |\n| Sub Total                                               | RM 68.87       |\n| Service Charge                                          | RM 0.00        |\n| GST/TAX 6%                                              | RM 4.13        |\n| TOTL, : RM                                              |                |\n| CA. RM                                                  | 73.00          |\n| CHANGE: RM                                              | 73.00 0.00     |\n\nItem Count: 2\n\nQty Count : 3.0\n\nClosed Bill: 20/12/2017 07:10:51 PM\n\nThank You, Please come again.\n\nBANK ACC MBB 5128 4851 2118\n\nGoods Sold are not refundable, returnable\n\nBANK ACC MBB 5626 4732 1744\n\nBANK ACC AMBANK 888 100 123 3706\n\nGST Summary Amount(RM) Tax(RM)\n\nSR @ 6%\n\n68.87\n\n4.13\n\nZR/OS/EZ\n\n0.00\n\n0.00",
+  "sections": [
+    {
+      "heading": null,
+      "text": "LIGHTROOM GALLERY SDN BHD No: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA ROC No.: (1072825-A) GST No.: 000584089600\n\nTel:03-3362 4395 Fax:03-3362 4395",
+      "page": null
+    },
+    {
+      "heading": "TAX INVOICE",
+      "text": "Station: CASHIER\n\nBill Date : 20/12/2017\n\nBill No: LCS03908\n\nCas r: ANGELA\n\nCover : 1\n\nBil1 Start: 20/12/2017 07:10:35 PM\n\nCode\n\nAddress\n\nName\n\nGST No.\n\n：300-C0001\n\n: CASH\n\n| CH50514 T5 JOINT 2PIN 2PCS *RM 2.83 UNI（               | SR 0.17)=RM    |\n|---------------------------------------------------------|----------------|\n| YT51874 YE30 BK 7W WW LED TRACK LIGHT * RM 33.02 UNI （ | 2.83 SR        |\n|                                                         | 3.96)=RM 66.04 |\n| Sub Total                                               | RM 68.87       |\n| Service Charge                                          | RM 0.00        |\n| GST/TAX 6%                                              | RM 4.13        |\n| TOTL, : RM                                              |                |\n| CA. RM                                                  | 73.00          |\n| CHANGE: RM                                              | 73.00 0.00     |\n\nItem Count: 2\n\nQty Count : 3.0\n\nClosed Bill: 20/12/2017 07:10:51 PM\n\nThank You, Please come again.\n\nBANK ACC MBB 5128 4851 2118\n\nGoods Sold are not refundable, returnable\n\nBANK ACC MBB 5626 4732 1744\n\nBANK ACC AMBANK 888 100 123 3706\n\nGST Summary Amount(RM) Tax(RM)\n\nSR @ 6%\n\n68.87\n\n4.13\n\nZR/OS/EZ\n\n0.00\n\n0.00",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

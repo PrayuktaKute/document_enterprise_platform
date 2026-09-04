@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_003",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_003.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## tan woon yann\n\n## YONGFATT ENTERPRISE\n\n(JM0517726) NO.122,124. JALAN DEDAP 13 81100 JOHOR BAHRU\n\nTEL 07-3523888\n\nGST ID:000849813504\n\n## SIMPLIFIED TAX INVOICE\n\nCASH\n\nDoc No CS00031663\n\nDate 25/12/2018\n\nCashter USER\n\nTime 12.31.00\n\nSalesperson Ref.\n\nItum Qty S/Price\n\nE8318\n\n1\n\n8091\n\nAmount Tax\n\n80.91\n\nSR\n\nELEGANT SCH TR BAG 15\n\nTotal Qty\n\n1\n\nTotal Sales (Excluding GST)\n\n80 91\n\n80.91\n\nDiscount\n\n0.00\n\nTotal GST\n\n0.00\n\nRounding\n\nTotal Sales (lnclusive of GST) :\n\n-001\n\n80.90\n\nCASH:\n\n100.00\n\nChange:\n\nAmt (RM)\n\n19.10\n\nTax(RM)\n\n<!-- image -->\n\nGST SUMMARY\n\nTax Code\n\nSR\n\n80.91\n\n000\n\n% 0\n\nTotal:\n\n80.91\n\n0.00",
+  "sections": [
+    {
+      "heading": "YONGFATT ENTERPRISE",
+      "text": "(JM0517726) NO.122,124. JALAN DEDAP 13 81100 JOHOR BAHRU\n\nTEL 07-3523888\n\nGST ID:000849813504",
+      "page": null
+    },
+    {
+      "heading": "SIMPLIFIED TAX INVOICE",
+      "text": "CASH\n\nDoc No CS00031663\n\nDate 25/12/2018\n\nCashter USER\n\nTime 12.31.00\n\nSalesperson Ref.\n\nItum Qty S/Price\n\nE8318\n\n1\n\n8091\n\nAmount Tax\n\n80.91\n\nSR\n\nELEGANT SCH TR BAG 15\n\nTotal Qty\n\n1\n\nTotal Sales (Excluding GST)\n\n80 91\n\n80.91\n\nDiscount\n\n0.00\n\nTotal GST\n\n0.00\n\nRounding\n\nTotal Sales (lnclusive of GST) :\n\n-001\n\n80.90\n\nCASH:\n\n100.00\n\nChange:\n\nAmt (RM)\n\n19.10\n\nTax(RM)\n\n<!-- image -->\n\nGST SUMMARY\n\nTax Code\n\nSR\n\n80.91\n\n000\n\n% 0\n\nTotal:\n\n80.91\n\n0.00",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

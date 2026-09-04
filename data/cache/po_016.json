@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_016",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_016.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-96149 Order Date: 2024-12-25 Requested Delivery: 2025-01-31\n\nBuyer: Butler, Sexton and Howell Vendor: Chavez LLC Ship To: 24023 Fuller Pines, West Sean, TX 23818\n\n| Description      |   Qty |   Unit (EUR) |   Amount (EUR) |\n|------------------|-------|--------------|----------------|\n| HDPE pipe 32mm   |    36 |       132.72 |        4777.92 |\n| Steel bolts M8   |     1 |       192.35 |         192.35 |\n| Pallet wrap film |     7 |       127.56 |         892.92 |\n| HDPE pipe 32mm   |    28 |       236.81 |        6630.68 |\n\n## Subtotal 12493.87 Tax 624.69\n\n## Total 13118.56\n\nAuthorised by Robert Vang, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-96149 Order Date: 2024-12-25 Requested Delivery: 2025-01-31\n\nBuyer: Butler, Sexton and Howell Vendor: Chavez LLC Ship To: 24023 Fuller Pines, West Sean, TX 23818\n\n| Description      |   Qty |   Unit (EUR) |   Amount (EUR) |\n|------------------|-------|--------------|----------------|\n| HDPE pipe 32mm   |    36 |       132.72 |        4777.92 |\n| Steel bolts M8   |     1 |       192.35 |         192.35 |\n| Pallet wrap film |     7 |       127.56 |         892.92 |\n| HDPE pipe 32mm   |    28 |       236.81 |        6630.68 |",
+      "page": null
+    },
+    {
+      "heading": "Total 13118.56",
+      "text": "Authorised by Robert Vang, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

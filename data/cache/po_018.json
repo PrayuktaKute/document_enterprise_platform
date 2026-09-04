@@ -1,0 +1,15 @@
+{
+  "doc_id": "po_018",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_018.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-76918 Order Date: 2025-09-20 Requested Delivery: 2025-10-30\n\nBuyer: Collier Ltd Vendor: Parker, Lewis and Hall\n\nShip To:\n\n5020 Colleen Glens, Martinland, TN 50423\n\n| Description         |   Qty |   Unit (EUR) |   Amount (EUR) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    12 |       147.03 |        1764.36 |\n| HDPE pipe 32mm      |    12 |        36.12 |         433.44 |\n\nSubtotal\n\nTax\n\n2197.80\n\n0.00\n\nTotal\n\n2197.80\n\nAuthorised by Meagan Campbell, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-76918 Order Date: 2025-09-20 Requested Delivery: 2025-10-30\n\nBuyer: Collier Ltd Vendor: Parker, Lewis and Hall\n\nShip To:\n\n5020 Colleen Glens, Martinland, TN 50423\n\n| Description         |   Qty |   Unit (EUR) |   Amount (EUR) |\n|---------------------|-------|--------------|----------------|\n| Aluminium sheet 2mm |    12 |       147.03 |        1764.36 |\n| HDPE pipe 32mm      |    12 |        36.12 |         433.44 |\n\nSubtotal\n\nTax\n\n2197.80\n\n0.00\n\nTotal\n\n2197.80\n\nAuthorised by Meagan Campbell, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

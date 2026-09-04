@@ -1,0 +1,20 @@
+{
+  "doc_id": "invoice_012",
+  "source_path": "/content/document_enterprise_platform/data/raw/invoices/invoice_012.jpg",
+  "source_format": "image",
+  "parser": "docling",
+  "text": "## HOME MASTER HARDWARE &amp; ELECTRICAL\n\nNO.113G &amp; 115G, JALAN SETIA GEMBILANG U13/EG BANDAR SETIA ALAM, 40170 BANDAR SETIA ALAM, SELANGOR.\n\nCompany Reg No. :SA0371155t-P\n\nGST Reg No.:001637511168\n\n## TA ICE\n\nDate:\n\nCaahler#:\n\nCS 67832\n\n22/12/2017 14:03\n\nCASHIER\n\n|                      | RM    | Code   |\n|----------------------|-------|--------|\n| 24MMx7Y M.QNE E TAPE |       |        |\n| 1.00 15.90           | 15.90 | SR     |\n| Subtotal :           | 15.90 |        |\n| Total Excl. of GST   | 15.00 |        |\n| Total Incl. of GST   | 15.90 |        |\n| Total Amt Rounded    | 15.90 |        |\n| Payment :            | 50.00 |        |\n| Change Due :         | 34.10 |        |\n\nTotal Item(a) : 1\n\n| G   | Rimmry   |   Amount(RM) |   Tax (RM) |\n|-----|----------|--------------|------------|\n| SR  | @6%      |        15.00 |       0.90 |\n\nTHANK YOU\n\nANY GOODS RETURN PLEASE DO WITHIN 7 DAYS WITH ORIGINAL RECEIPT TQM",
+  "sections": [
+    {
+      "heading": "HOME MASTER HARDWARE &amp; ELECTRICAL",
+      "text": "NO.113G &amp; 115G, JALAN SETIA GEMBILANG U13/EG BANDAR SETIA ALAM, 40170 BANDAR SETIA ALAM, SELANGOR.\n\nCompany Reg No. :SA0371155t-P\n\nGST Reg No.:001637511168",
+      "page": null
+    },
+    {
+      "heading": "TA ICE",
+      "text": "Date:\n\nCaahler#:\n\nCS 67832\n\n22/12/2017 14:03\n\nCASHIER\n\n|                      | RM    | Code   |\n|----------------------|-------|--------|\n| 24MMx7Y M.QNE E TAPE |       |        |\n| 1.00 15.90           | 15.90 | SR     |\n| Subtotal :           | 15.90 |        |\n| Total Excl. of GST   | 15.00 |        |\n| Total Incl. of GST   | 15.90 |        |\n| Total Amt Rounded    | 15.90 |        |\n| Payment :            | 50.00 |        |\n| Change Due :         | 34.10 |        |\n\nTotal Item(a) : 1\n\n| G   | Rimmry   |   Amount(RM) |   Tax (RM) |\n|-----|----------|--------------|------------|\n| SR  | @6%      |        15.00 |       0.90 |\n\nTHANK YOU\n\nANY GOODS RETURN PLEASE DO WITHIN 7 DAYS WITH ORIGINAL RECEIPT TQM",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_011",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_011.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "PO Number:\n\nPO-77676\n\nOrder Date: 2025-01-13\n\nRequested Delivery: 2025-01-30\n\nBuyer:\n\nBrown Ltd\n\nVendor:\n\nGreen-Barnes\n\nShip To:\n\n986 Amanda Pine Apt. 729, Port Laurenburgh, FL 62562\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    34 |        88.42 |        3006.28 |\n| Pallet wrap film     |    35 |       219.61 |        7686.35 |\n\nSubtotal\n\nTax\n\n10692.63\n\n855.41\n\nTotal\n\n11548.04\n\n## PURCHASE ORDER\n\nAuthorised by Barbara Brown, Procurement",
+  "sections": [
+    {
+      "heading": null,
+      "text": "PO Number:\n\nPO-77676\n\nOrder Date: 2025-01-13\n\nRequested Delivery: 2025-01-30\n\nBuyer:\n\nBrown Ltd\n\nVendor:\n\nGreen-Barnes\n\nShip To:\n\n986 Amanda Pine Apt. 729, Port Laurenburgh, FL 62562\n\n| Description          |   Qty |   Unit (GBP) |   Amount (GBP) |\n|----------------------|-------|--------------|----------------|\n| Safety gloves (pair) |    34 |        88.42 |        3006.28 |\n| Pallet wrap film     |    35 |       219.61 |        7686.35 |\n\nSubtotal\n\nTax\n\n10692.63\n\n855.41\n\nTotal\n\n11548.04",
+      "page": null
+    },
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "Authorised by Barbara Brown, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

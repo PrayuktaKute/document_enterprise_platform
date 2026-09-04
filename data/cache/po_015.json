@@ -1,0 +1,20 @@
+{
+  "doc_id": "po_015",
+  "source_path": "/content/document_enterprise_platform/data/raw/purchase_orders/po_015.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## PURCHASE ORDER\n\nPO Number: PO-36125 Order Date: 2025-08-01 Requested Delivery: 2025-09-01\n\nBuyer: Campos-Weiss Vendor: Bullock and Sons Ship To: 2889 Graves Corners Suite 026, West Shawnaland, AS 34652\n\n| Description         |   Qty |   Unit (USD) |   Amount (USD) |\n|---------------------|-------|--------------|----------------|\n| HDPE pipe 32mm      |    28 |       189.92 |        5317.76 |\n| Ethernet cable Cat6 |     6 |       192.70 |        1156.20 |\n| Pallet wrap film    |    26 |       112.50 |        2925.00 |\n| Pallet wrap film    |     6 |       174.64 |        1047.84 |\n| HDPE pipe 32mm      |     9 |         9.04 |          81.36 |\n\n## Subtotal 10528.16 Tax 1895.07\n\n## Total 12423.23\n\nAuthorised by Scott Jones, Procurement",
+  "sections": [
+    {
+      "heading": "PURCHASE ORDER",
+      "text": "PO Number: PO-36125 Order Date: 2025-08-01 Requested Delivery: 2025-09-01\n\nBuyer: Campos-Weiss Vendor: Bullock and Sons Ship To: 2889 Graves Corners Suite 026, West Shawnaland, AS 34652\n\n| Description         |   Qty |   Unit (USD) |   Amount (USD) |\n|---------------------|-------|--------------|----------------|\n| HDPE pipe 32mm      |    28 |       189.92 |        5317.76 |\n| Ethernet cable Cat6 |     6 |       192.70 |        1156.20 |\n| Pallet wrap film    |    26 |       112.50 |        2925.00 |\n| Pallet wrap film    |     6 |       174.64 |        1047.84 |\n| HDPE pipe 32mm      |     9 |         9.04 |          81.36 |",
+      "page": null
+    },
+    {
+      "heading": "Total 12423.23",
+      "text": "Authorised by Scott Jones, Procurement",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}

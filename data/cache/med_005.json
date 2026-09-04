@@ -1,0 +1,25 @@
+{
+  "doc_id": "med_005",
+  "source_path": "/content/document_enterprise_platform/data/raw/medical_reports/med_005.pdf",
+  "source_format": "pdf",
+  "parser": "docling",
+  "text": "## RADIOLOGY / LABORATORY REPORT\n\nPatient Name: Kimberly Johnson Patient ID: MRN-143690 Report Date: 2025-04-18 Ordering Physician: Dr. Jenkins Study / Modality: CT Abdomen Body Site: Abdomen and pelvis\n\n## FINDINGS\n\nLiver, spleen, pancreas, adrenal glands and kidneys are unremarkable. No free fluid or lymphadenopathy. Bowel loops are non-dilated. Fat stranding around the appendix with a dilated appendix measuring 11 mm.\n\n## IMPRESSION\n\nAcute appendicitis.",
+  "sections": [
+    {
+      "heading": "RADIOLOGY / LABORATORY REPORT",
+      "text": "Patient Name: Kimberly Johnson Patient ID: MRN-143690 Report Date: 2025-04-18 Ordering Physician: Dr. Jenkins Study / Modality: CT Abdomen Body Site: Abdomen and pelvis",
+      "page": null
+    },
+    {
+      "heading": "FINDINGS",
+      "text": "Liver, spleen, pancreas, adrenal glands and kidneys are unremarkable. No free fluid or lymphadenopathy. Bowel loops are non-dilated. Fat stranding around the appendix with a dilated appendix measuring 11 mm.",
+      "page": null
+    },
+    {
+      "heading": "IMPRESSION",
+      "text": "Acute appendicitis.",
+      "page": null
+    }
+  ],
+  "page_count": 1
+}
