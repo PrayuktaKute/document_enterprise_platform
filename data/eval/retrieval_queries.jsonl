@@ -1,0 +1,163 @@
+{"query": "invoice issued by SHELL ISNI PETRO TRADING", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
+{"query": "receipt with a total of 86.00", "relevant_doc_ids": ["invoice_019"], "doc_type": "invoice"}
+{"query": "invoice issued by YONGFATT ENTERPRISE", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
+{"query": "receipt with a total of 80.90", "relevant_doc_ids": ["invoice_003"], "doc_type": "invoice"}
+{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
+{"query": "receipt with a total of 73.00", "relevant_doc_ids": ["invoice_018"], "doc_type": "invoice"}
+{"query": "invoice issued by SAM SAM TRADING CO", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
+{"query": "receipt with a total of 14.10", "relevant_doc_ids": ["invoice_010"], "doc_type": "invoice"}
+{"query": "invoice issued by C W KHOO HARDWARE SDN BHD", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
+{"query": "receipt with a total of 21.20", "relevant_doc_ids": ["invoice_029"], "doc_type": "invoice"}
+{"query": "invoice issued by INDAH GIFT & HOME DECO", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
+{"query": "receipt with a total of 60.30", "relevant_doc_ids": ["invoice_001"], "doc_type": "invoice"}
+{"query": "invoice issued by ASIA MART", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
+{"query": "receipt with a total of 32.70", "relevant_doc_ids": ["invoice_014"], "doc_type": "invoice"}
+{"query": "invoice issued by RESTORAN HASSANBISTRO", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
+{"query": "receipt with a total of 15.00", "relevant_doc_ids": ["invoice_013"], "doc_type": "invoice"}
+{"query": "invoice issued by HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
+{"query": "receipt with a total of 15.90", "relevant_doc_ids": ["invoice_012"], "doc_type": "invoice"}
+{"query": "invoice issued by 99 SPEED MART S/B", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
+{"query": "receipt with a total of 2.50", "relevant_doc_ids": ["invoice_028"], "doc_type": "invoice"}
+{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
+{"query": "receipt with a total of 73.00", "relevant_doc_ids": ["invoice_016"], "doc_type": "invoice"}
+{"query": "invoice issued by HOME MASTER HARDWARE & ELECTRICAL", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
+{"query": "receipt with a total of 15.90", "relevant_doc_ids": ["invoice_015"], "doc_type": "invoice"}
+{"query": "invoice issued by BOOK TA .K (TAMAN DAYA) SDN BHD", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
+{"query": "receipt with a total of 9.00", "relevant_doc_ids": ["invoice_000"], "doc_type": "invoice"}
+{"query": "invoice issued by LIGHTROOM GALLERY SDN BHD", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
+{"query": "receipt with a total of 39.80", "relevant_doc_ids": ["invoice_017"], "doc_type": "invoice"}
+{"query": "invoice issued by AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
+{"query": "receipt with a total of 15.00", "relevant_doc_ids": ["invoice_011"], "doc_type": "invoice"}
+{"query": "invoice issued by SOON HUAT MACHINERY ENTERPRISE", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
+{"query": "receipt with a total of 327.00", "relevant_doc_ids": ["invoice_006"], "doc_type": "invoice"}
+{"query": "invoice issued by MR D.I.Y. (JOHOR) SDN BHD", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
+{"query": "receipt with a total of 33.90", "relevant_doc_ids": ["invoice_002"], "doc_type": "invoice"}
+{"query": "invoice issued by TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
+{"query": "receipt with a total of 27.55", "relevant_doc_ids": ["invoice_023"], "doc_type": "invoice"}
+{"query": "invoice issued by TEO HENG STATIONERY & BOOKS", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
+{"query": "receipt with a total of 55.10", "relevant_doc_ids": ["invoice_024"], "doc_type": "invoice"}
+{"query": "invoice issued by FUYI MINI MARKET", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
+{"query": "receipt with a total of 9.00", "relevant_doc_ids": ["invoice_022"], "doc_type": "invoice"}
+{"query": "purchase order sent to vendor Gould-Foster", "relevant_doc_ids": ["po_000"], "doc_type": "purchase_order"}
+{"query": "order that includes Ethernet cable Cat6", "relevant_doc_ids": ["po_000"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Smith Inc", "relevant_doc_ids": ["po_023"], "doc_type": "purchase_order"}
+{"query": "order that includes Pallet wrap film", "relevant_doc_ids": ["po_023"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Martinez Group", "relevant_doc_ids": ["po_029"], "doc_type": "purchase_order"}
+{"query": "order that includes Steel bolts M8", "relevant_doc_ids": ["po_029"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Knight PLC", "relevant_doc_ids": ["po_006"], "doc_type": "purchase_order"}
+{"query": "order that includes Safety gloves (pair)", "relevant_doc_ids": ["po_006"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Barnes LLC", "relevant_doc_ids": ["po_005"], "doc_type": "purchase_order"}
+{"query": "order that includes Aluminium sheet 2mm", "relevant_doc_ids": ["po_005"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Sanders, Cherry and Williams", "relevant_doc_ids": ["po_001"], "doc_type": "purchase_order"}
+{"query": "order that includes Steel bolts M8", "relevant_doc_ids": ["po_001"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Holmes, Peters and Mueller", "relevant_doc_ids": ["po_012"], "doc_type": "purchase_order"}
+{"query": "order that includes Ethernet cable Cat6", "relevant_doc_ids": ["po_012"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Hurst, Davis and Fox", "relevant_doc_ids": ["po_022"], "doc_type": "purchase_order"}
+{"query": "order that includes Packing tape roll", "relevant_doc_ids": ["po_022"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Fritz and Sons", "relevant_doc_ids": ["po_014"], "doc_type": "purchase_order"}
+{"query": "order that includes Aluminium sheet 2mm", "relevant_doc_ids": ["po_014"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Schwartz Inc", "relevant_doc_ids": ["po_019"], "doc_type": "purchase_order"}
+{"query": "order that includes Copper wire 2.5mm", "relevant_doc_ids": ["po_019"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Bauer Ltd", "relevant_doc_ids": ["po_002"], "doc_type": "purchase_order"}
+{"query": "order that includes Ethernet cable Cat6", "relevant_doc_ids": ["po_002"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Hanson-Mccullough", "relevant_doc_ids": ["po_009"], "doc_type": "purchase_order"}
+{"query": "order that includes Hydraulic seal kit", "relevant_doc_ids": ["po_009"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Perkins and Sons", "relevant_doc_ids": ["po_024"], "doc_type": "purchase_order"}
+{"query": "order that includes Hydraulic seal kit", "relevant_doc_ids": ["po_024"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Richardson PLC", "relevant_doc_ids": ["po_028"], "doc_type": "purchase_order"}
+{"query": "order that includes Safety gloves (pair)", "relevant_doc_ids": ["po_028"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Chavez LLC", "relevant_doc_ids": ["po_016"], "doc_type": "purchase_order"}
+{"query": "order that includes HDPE pipe 32mm", "relevant_doc_ids": ["po_016"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Sullivan-Allen", "relevant_doc_ids": ["po_027"], "doc_type": "purchase_order"}
+{"query": "order that includes Steel bolts M8", "relevant_doc_ids": ["po_027"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Ross Inc", "relevant_doc_ids": ["po_020"], "doc_type": "purchase_order"}
+{"query": "order that includes Pallet wrap film", "relevant_doc_ids": ["po_020"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Bell, Crawford and Robles", "relevant_doc_ids": ["po_003"], "doc_type": "purchase_order"}
+{"query": "order that includes Safety gloves (pair)", "relevant_doc_ids": ["po_003"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Johnson PLC", "relevant_doc_ids": ["po_010"], "doc_type": "purchase_order"}
+{"query": "order that includes HDPE pipe 32mm", "relevant_doc_ids": ["po_010"], "doc_type": "purchase_order"}
+{"query": "purchase order sent to vendor Browning PLC", "relevant_doc_ids": ["po_021"], "doc_type": "purchase_order"}
+{"query": "order that includes Hydraulic seal kit", "relevant_doc_ids": ["po_021"], "doc_type": "purchase_order"}
+{"query": "CT Abdomen report and its impression", "relevant_doc_ids": ["med_005"], "doc_type": "medical_report"}
+{"query": "report describing Acute appendicitis", "relevant_doc_ids": ["med_005"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_002"], "doc_type": "medical_report"}
+{"query": "report describing Acute left MCA territory infarct", "relevant_doc_ids": ["med_002"], "doc_type": "medical_report"}
+{"query": "Chest X-ray report and its impression", "relevant_doc_ids": ["med_003"], "doc_type": "medical_report"}
+{"query": "imaging of the Chest with no acute abnormality", "relevant_doc_ids": ["med_003"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_022"], "doc_type": "medical_report"}
+{"query": "report describing Nonspecific white matter changes, likely microvascular", "relevant_doc_ids": ["med_022"], "doc_type": "medical_report"}
+{"query": "Knee X-ray report and its impression", "relevant_doc_ids": ["med_029"], "doc_type": "medical_report"}
+{"query": "report describing Nondisplaced proximal tibial fracture", "relevant_doc_ids": ["med_029"], "doc_type": "medical_report"}
+{"query": "Lab CBC panel report and its impression", "relevant_doc_ids": ["med_026"], "doc_type": "medical_report"}
+{"query": "report describing Leukocytosis with neutrophil predominance", "relevant_doc_ids": ["med_026"], "doc_type": "medical_report"}
+{"query": "CT Abdomen report and its impression", "relevant_doc_ids": ["med_016"], "doc_type": "medical_report"}
+{"query": "imaging of the Abdomen and pelvis with no acute abnormality", "relevant_doc_ids": ["med_016"], "doc_type": "medical_report"}
+{"query": "Lab CBC panel report and its impression", "relevant_doc_ids": ["med_009"], "doc_type": "medical_report"}
+{"query": "imaging of the Whole blood with no acute abnormality", "relevant_doc_ids": ["med_009"], "doc_type": "medical_report"}
+{"query": "Chest X-ray report and its impression", "relevant_doc_ids": ["med_000"], "doc_type": "medical_report"}
+{"query": "report describing Right lower lobe pneumonia", "relevant_doc_ids": ["med_000"], "doc_type": "medical_report"}
+{"query": "Lab CBC panel report and its impression", "relevant_doc_ids": ["med_013"], "doc_type": "medical_report"}
+{"query": "report describing Microcytic anaemia, likely iron deficiency", "relevant_doc_ids": ["med_013"], "doc_type": "medical_report"}
+{"query": "Knee X-ray report and its impression", "relevant_doc_ids": ["med_027"], "doc_type": "medical_report"}
+{"query": "report describing Nondisplaced proximal tibial fracture", "relevant_doc_ids": ["med_027"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_025"], "doc_type": "medical_report"}
+{"query": "imaging of the Brain with no acute abnormality", "relevant_doc_ids": ["med_025"], "doc_type": "medical_report"}
+{"query": "Lab CBC panel report and its impression", "relevant_doc_ids": ["med_010"], "doc_type": "medical_report"}
+{"query": "imaging of the Whole blood with no acute abnormality", "relevant_doc_ids": ["med_010"], "doc_type": "medical_report"}
+{"query": "Knee X-ray report and its impression", "relevant_doc_ids": ["med_021"], "doc_type": "medical_report"}
+{"query": "report describing Moderate medial compartment osteoarthritis", "relevant_doc_ids": ["med_021"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_001"], "doc_type": "medical_report"}
+{"query": "report describing Nonspecific white matter changes, likely microvascular", "relevant_doc_ids": ["med_001"], "doc_type": "medical_report"}
+{"query": "Chest X-ray report and its impression", "relevant_doc_ids": ["med_024"], "doc_type": "medical_report"}
+{"query": "imaging of the Chest with no acute abnormality", "relevant_doc_ids": ["med_024"], "doc_type": "medical_report"}
+{"query": "CT Abdomen report and its impression", "relevant_doc_ids": ["med_011"], "doc_type": "medical_report"}
+{"query": "report describing Acute appendicitis", "relevant_doc_ids": ["med_011"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_006"], "doc_type": "medical_report"}
+{"query": "imaging of the Brain with no acute abnormality", "relevant_doc_ids": ["med_006"], "doc_type": "medical_report"}
+{"query": "MRI Brain report and its impression", "relevant_doc_ids": ["med_020"], "doc_type": "medical_report"}
+{"query": "report describing Acute left MCA territory infarct", "relevant_doc_ids": ["med_020"], "doc_type": "medical_report"}
+{"query": "Lab CBC panel report and its impression", "relevant_doc_ids": ["med_023"], "doc_type": "medical_report"}
+{"query": "report describing Microcytic anaemia, likely iron deficiency", "relevant_doc_ids": ["med_023"], "doc_type": "medical_report"}
+{"query": "agreement involving General Electric Capital Corporation together with its successors", "relevant_doc_ids": ["contract_ALCOSTORESINC_12_14_2005-EX-10.26-AGENCY_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving [ * * * ] (\"Provider\")", "relevant_doc_ids": ["contract_ABILITYINC_06_15_2020-EX-4.25-SERVICES_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Israel", "relevant_doc_ids": ["contract_ABILITYINC_06_15_2020-EX-4.25-SERVICES_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving Twin Cities Power Holdings", "relevant_doc_ids": ["contract_ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Minnesota", "relevant_doc_ids": ["contract_ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving Collectible Concepts Group", "relevant_doc_ids": ["contract_ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Pennsylvania", "relevant_doc_ids": ["contract_ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT"], "doc_type": "contract"}
+{"query": "agreement involving Armstrong Flooring", "relevant_doc_ids": ["contract_ARMSTRONGFLOORING,INC_01_07_2019-EX-10.2-INTELLECTUAL_PROPER"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Delaware", "relevant_doc_ids": ["contract_ARMSTRONGFLOORING,INC_01_07_2019-EX-10.2-INTELLECTUAL_PROPER"], "doc_type": "contract"}
+{"query": "agreement involving Mutual Insurance Corporation of America (MICOA)", "relevant_doc_ids": ["contract_AMERICANPHYSICIANSCAPITALINC_03_31_2003-EX-10.26-AGENCY_AGRE"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Nevada", "relevant_doc_ids": ["contract_AMERICANPHYSICIANSCAPITALINC_03_31_2003-EX-10.26-AGENCY_AGRE"], "doc_type": "contract"}
+{"query": "agreement involving Kathy Ireland", "relevant_doc_ids": ["contract_AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT_AG"], "doc_type": "contract"}
+{"query": "contract governed by the laws of California", "relevant_doc_ids": ["contract_AMBASSADOREYEWEARGROUPINC_11_17_1997-EX-10.28-ENDORSEMENT_AG"], "doc_type": "contract"}
+{"query": "agreement involving Arkansas Western Pipeline Company (\"Transporter\")", "relevant_doc_ids": ["contract_ATMOSENERGYCORP_11_22_2002-EX-10.17-TRANSPORTATION_SERVICE_A"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Arkansas", "relevant_doc_ids": ["contract_ATMOSENERGYCORP_11_22_2002-EX-10.17-TRANSPORTATION_SERVICE_A"], "doc_type": "contract"}
+{"query": "agreement involving Hanover Direct", "relevant_doc_ids": ["contract_AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE_DEVELOPMENT_"], "doc_type": "contract"}
+{"query": "contract governed by the laws of New York", "relevant_doc_ids": ["contract_AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE_DEVELOPMENT_"], "doc_type": "contract"}
+{"query": "agreement involving (AFSALA  Bancorp", "relevant_doc_ids": ["contract_AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of District of Columbia", "relevant_doc_ids": ["contract_AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving Airsopure International Group", "relevant_doc_ids": ["contract_AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE_AG"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Texas", "relevant_doc_ids": ["contract_AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE_AG"], "doc_type": "contract"}
+{"query": "agreement involving I-ESCROW", "relevant_doc_ids": ["contract_2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-"], "doc_type": "contract"}
+{"query": "contract governed by the laws of California", "relevant_doc_ids": ["contract_2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-"], "doc_type": "contract"}
+{"query": "agreement involving Aduro Biotech", "relevant_doc_ids": ["contract_ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of California", "relevant_doc_ids": ["contract_ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving HPS INVESTMENT PARTNERS", "relevant_doc_ids": ["contract_ATENTOSA_07_06_2020-EX-99.1-JOINT_FILING_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving ACCURAY INCORPORATED", "relevant_doc_ids": ["contract_ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Germany", "relevant_doc_ids": ["contract_ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving (Greater Delaware Valley Holdings (“PA MHC”)", "relevant_doc_ids": ["contract_ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY_AG"], "doc_type": "contract"}
+{"query": "contract governed by the laws of New York", "relevant_doc_ids": ["contract_ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY_AG"], "doc_type": "contract"}
+{"query": "agreement involving ADMA BioManuFacturing", "relevant_doc_ids": ["contract_ADMA_BioManufacturing,_LLC_-__Amendment_#3_to_Manufacturing_"], "doc_type": "contract"}
+{"query": "agreement involving TOM WATSON (\"CONSULTANT\")", "relevant_doc_ids": ["contract_ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT_AGREEMENT"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Kansas", "relevant_doc_ids": ["contract_ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT_AGREEMENT"], "doc_type": "contract"}
+{"query": "agreement involving VA Partners I", "relevant_doc_ids": ["contract_ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATIO"], "doc_type": "contract"}
+{"query": "contract governed by the laws of Delaware", "relevant_doc_ids": ["contract_ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATIO"], "doc_type": "contract"}
+{"query": "agreement involving ASHWORTH", "relevant_doc_ids": ["contract_ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION_AGREEMENT_AND_NAN"], "doc_type": "contract"}
+{"query": "contract governed by the laws of California", "relevant_doc_ids": ["contract_ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION_AGREEMENT_AND_NAN"], "doc_type": "contract"}
+{"query": "pneumonia found on a chest x-ray", "relevant_doc_ids": [], "doc_type": "medical_report"}
+{"query": "distributor agreement between two companies", "relevant_doc_ids": [], "doc_type": "contract"}
+{"query": "purchase order with tax applied", "relevant_doc_ids": [], "doc_type": "purchase_order"}
+{"query": "grocery or food receipt from a store", "relevant_doc_ids": [], "doc_type": "invoice"}
+{"query": "contract that can be renewed or extended", "relevant_doc_ids": [], "doc_type": "contract"}
+{"query": "MRI of the brain", "relevant_doc_ids": [], "doc_type": "medical_report"}

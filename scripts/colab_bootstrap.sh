@@ -8,7 +8,9 @@ pip -q install -e . --no-deps
 
 echo "== ollama =="
 curl -fsSL https://ollama.com/install.sh | sh
-nohup ollama serve > /content/ollama.log 2>&1 &
+export OLLAMA_NUM_PARALLEL=4          # serve concurrent requests (GPU has headroom)
+export OLLAMA_KEEP_ALIVE=30m
+nohup env OLLAMA_NUM_PARALLEL=4 OLLAMA_KEEP_ALIVE=30m ollama serve > /content/ollama.log 2>&1 &
 sleep 5
 ollama pull qwen2.5:3b-instruct-q4_K_M
 
