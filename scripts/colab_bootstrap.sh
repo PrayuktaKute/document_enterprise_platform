@@ -10,7 +10,17 @@ pip -q install -r requirements-ml.txt
 pip -q install -e . --no-deps
 
 echo "== ollama binary =="
-which ollama >/dev/null 2>&1 || curl -fsSL https://ollama.com/install.sh | sh
+if ! which ollama >/dev/null 2>&1; then
+  # the Ollama install tarball is zstd-compressed; Colab's base image lacks zstd
+  apt-get install -y -qq zstd 2>/dev/null || sudo apt-get install -y zstd || true
+  if which zstd >/dev/null 2>&1; then
+    curl -fsSL https://ollama.com/install.sh | sh
+  else
+    # fallback: pull the raw linux-amd64 binary directly
+    curl -fsSL -o /usr/local/bin/ollama https://ollama.com/download/ollama-linux-amd64
+    chmod +x /usr/local/bin/ollama
+  fi
+fi
 ollama --version || true
 
 echo "== .env  (embedded Qdrant -- no server needed on Colab) =="
