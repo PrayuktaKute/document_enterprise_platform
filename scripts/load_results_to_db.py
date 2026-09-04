@@ -25,11 +25,14 @@ def main() -> None:
     rows = [json.loads(x) for x in Path(args.results).read_text(encoding="utf-8").splitlines() if x.strip()]
     n_review = 0
     for r in rows:
-        # normalise file_path to absolute for the Document row
-        r = {**r, "file_path": str(REPO_ROOT / _guess_path(r))}
+        # the batch run skips indexing, so every row's status is "needs_review";
+        # derive the real disposition from the auto-accept gate.
+        status = "indexed" if r.get("auto_accept") else "needs_review"
+        r = {**r, "file_path": str(REPO_ROOT / _guess_path(r)), "status": status}
         persist_state(r)
-        n_review += int(r.get("status") == "needs_review")
-    print(f"loaded {len(rows)} documents ({n_review} in review queue)")
+        n_review += int(status == "needs_review")
+    print(f"loaded {len(rows)} documents ({n_review} in review queue, "
+          f"{len(rows) - n_review} auto-accepted)")
 
 
 def _guess_path(rec: dict) -> str:

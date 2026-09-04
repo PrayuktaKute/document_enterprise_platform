@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import os
 import time
+from urllib.parse import quote
 
 import httpx
 import streamlit as st
@@ -19,6 +20,15 @@ def api(method: str, path: str, **kw):
     r = httpx.request(method, f"{API}{path}", timeout=120, **kw)
     r.raise_for_status()
     return r.json()
+
+
+def doc_path(doc_id: str, suffix: str = "") -> str:
+    return f"/documents/{quote(doc_id, safe='')}{suffix}"
+
+
+@st.cache_data(ttl=30, show_spinner=False)
+def get_doc(doc_id: str) -> dict:
+    return api("GET", doc_path(doc_id))
 
 
 def conf_badge(v: float | None) -> str:
@@ -52,7 +62,7 @@ with tab_up:
         if doc_id:
             for _ in range(2):
                 try:
-                    view = api("GET", f"/documents/{doc_id}")
+                    view = api("GET", doc_path(doc_id))
                     break
                 except Exception as exc:  # noqa: BLE001
                     st.warning(str(exc))
@@ -73,7 +83,7 @@ with tab_up:
                              "flag": "" if f["confidence"] >= 0.55 else "review"}
                             for f in view["field_confidences"]
                         ],
-                        use_container_width=True, hide_index=True,
+                        hide_index=True, width='stretch',
                     )
                 if view["validation"]:
                     st.caption("Validation")
@@ -83,7 +93,7 @@ with tab_up:
                              "critical": v["critical"], "message": v["message"]}
                             for v in view["validation"]
                         ],
-                        use_container_width=True, hide_index=True,
+                        hide_index=True, width='stretch',
                     )
 
 # --------------------------------------------------------------------------- #
@@ -96,27 +106,43 @@ with tab_review:
         st.error(str(exc))
     if not queue:
         st.info("Review queue is empty.")
-    for item in queue:
-        with st.expander(f"{item['doc_id']}  —  {item['doc_type']}  ({item['filename']})"):
-            view = api("GET", f"/documents/{item['doc_id']}")
-            low = {f["field"] for f in view["field_confidences"] if f["confidence"] < 0.55}
+    else:
+        st.caption(f"{len(queue)} document(s) routed to review by the confidence + rule gate. "
+                   "Pick one to inspect and correct.")
+        labels = {f"{i['doc_id']}  ·  {i['doc_type']}": i["doc_id"] for i in queue}
+        pick = st.selectbox("Document", list(labels))
+        did = labels[pick]
+        try:
+            view = get_doc(did)
+        except Exception as exc:  # noqa: BLE001
+            view = None
+            st.error(f"could not load {did}: {exc}")
+        if view:
+            low = [f["field"] for f in view["field_confidences"] if f["confidence"] < 0.55]
+            cols = st.columns(3)
+            cols[0].metric("doc confidence", f"{(view['doc_confidence'] or 0):.2f}")
+            cols[1].metric("type", view["doc_type"] or "?")
+            cols[2].metric("low-conf fields", len(low))
             if low:
-                st.warning("Low-confidence fields: " + ", ".join(sorted(low)))
+                st.warning("Low-confidence fields: " + ", ".join(low))
+            if view["validation"]:
+                st.dataframe(view["validation"], hide_index=True, width='stretch')
             edited = st.text_area(
-                "Extraction JSON", json.dumps(view["extraction"], indent=2),
-                height=280, key=f"edit_{item['doc_id']}",
+                "Extraction JSON (edit then approve)",
+                json.dumps(view["extraction"], indent=2), height=300, key=f"edit_{did}",
             )
             c1, c2 = st.columns(2)
-            if c1.button("Approve corrected", key=f"appr_{item['doc_id']}"):
+            if c1.button("Approve corrected"):
                 try:
-                    payload = json.loads(edited)
-                    res = api("PUT", f"/documents/{item['doc_id']}/extraction",
-                              json={"payload": payload, "note": "streamlit review"})
-                    st.success(f"Re-indexed ({res['chunks_indexed']} chunks)")
+                    res = api("PUT", doc_path(did, "/extraction"),
+                              json={"payload": json.loads(edited), "note": "streamlit review"})
+                    get_doc.clear()
+                    st.success(f"Corrected + re-indexed ({res['chunks_indexed']} chunks)")
                 except json.JSONDecodeError as exc:
                     st.error(f"Invalid JSON: {exc}")
-            if c2.button("Approve as-is", key=f"asis_{item['doc_id']}"):
-                api("POST", f"/documents/{item['doc_id']}/approve")
+            if c2.button("Approve as-is"):
+                api("POST", doc_path(did, "/approve"))
+                get_doc.clear()
                 st.success("Approved")
 
 # --------------------------------------------------------------------------- #
@@ -163,7 +189,7 @@ with tab_metrics:
         st.dataframe(
             [{"type": k, "accuracy": f"{v:.1%}"} for k, v in
              ex.get("field_accuracy_by_type", {}).items()],
-            use_container_width=True, hide_index=True,
+            hide_index=True, width='stretch',
         )
         cal = os.path.join(os.environ.get("DIP_ARTIFACTS", "artifacts"), "calibration.png")
         if os.path.exists(cal):

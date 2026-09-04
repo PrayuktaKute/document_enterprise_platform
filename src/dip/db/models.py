@@ -27,7 +27,7 @@ class Base(DeclarativeBase):
 class Document(Base):
     __tablename__ = "documents"
 
-    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    id: Mapped[str] = mapped_column(String(160), primary_key=True)
     filename: Mapped[str] = mapped_column(String(512))
     file_path: Mapped[str] = mapped_column(String(1024))
     doc_type: Mapped[str | None] = mapped_column(String(64), nullable=True)
@@ -104,7 +104,7 @@ class AuditLog(Base):
     __tablename__ = "audit_log"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
-    document_id: Mapped[str | None] = mapped_column(String(64), index=True, nullable=True)
+    document_id: Mapped[str | None] = mapped_column(String(160), index=True, nullable=True)
     event: Mapped[str] = mapped_column(String(64))
     detail: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     ts: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
